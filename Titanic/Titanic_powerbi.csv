@@ -1,0 +1,897 @@
+﻿PassengerId;Survived;Pclass;Name;Sex;Age;SibSp;Parch;Ticket;Fare;Cabin;Embarked;Titulo;Apellido;Age_imputada;Deck;TamanoFamilia;ViajaSolo;GrupoEdad;TarifaPorPersona;Puerto;Estado
+1;0;3;Braund Mr. Owen Harris;Male;22;1;0;A/5 21171;7;Desconocido;S;Mr;Braund;False;Desconocido;2;False;Adulto joven;7;Southampton;Falleció
+2;1;1;Cumings Mrs. John Bradley (Florence Briggs Thayer);Female;38;1;0;PC 17599;71;C85;C;Mrs;Cumings;False;C;2;False;Adulto;71;Cherburgo;Sobrevivió
+3;1;3;Heikkinen Miss. Laina;Female;26;0;0;STON/O2. 3101282;8;Desconocido;S;Miss;Heikkinen;False;Desconocido;1;True;Adulto joven;8;Southampton;Sobrevivió
+4;1;1;Futrelle Mrs. Jacques Heath (Lily May Peel);Female;35;1;0;113803;53;C123;S;Mrs;Futrelle;False;C;2;False;Adulto;27;Southampton;Sobrevivió
+5;0;3;Allen Mr. William Henry;Male;35;0;0;373450;8;Desconocido;S;Mr;Allen;False;Desconocido;1;True;Adulto;8;Southampton;Falleció
+6;0;3;Moran Mr. James;Male;30;0;0;330877;8;Desconocido;Q;Mr;Moran;True;Desconocido;1;True;Adulto joven;8;Queenstown;Falleció
+7;0;1;McCarthy Mr. Timothy J;Male;54;0;0;17463;52;E46;S;Mr;McCarthy;False;E;1;True;Adulto;52;Southampton;Falleció
+8;0;3;Palsson Master. Gosta Leonard;Male;2;3;1;349909;21;Desconocido;S;Master;Palsson;False;Desconocido;5;False;Niño;5;Southampton;Falleció
+9;1;3;Johnson Mrs. Oscar W (Elisabeth Vilhelmina Berg);Female;27;0;2;347742;11;Desconocido;S;Mrs;Johnson;False;Desconocido;3;False;Adulto joven;4;Southampton;Sobrevivió
+10;1;2;Nasser Mrs. Nicholas (Adele Achem);Female;14;1;0;237736;30;Desconocido;C;Mrs;Nasser;False;Desconocido;2;False;Adolescente;15;Cherburgo;Sobrevivió
+11;1;3;Sandstrom Miss. Marguerite Rut;Female;4;1;1;P.P. 9549;17;G6;S;Miss;Sandstrom;False;G;3;False;Niño;8;Southampton;Sobrevivió
+11;1;3;sand strom Miss. Marguerite Ru t;Female;4;0;1;PP9 549;17;G6;S;Miss;sand strom;False;G;2;False;Niño;17;Southampton;Sobrevivió
+12;1;1;Bonnell Miss. Elizabeth;Female;58;0;0;113783;27;C103;S;Miss;Bonnell;False;C;1;True;Adulto;27;Southampton;Sobrevivió
+13;0;3;Saundercock Mr. William Henry;Male;20;0;0;A/5 2151;8;Desconocido;S;Mr;Saundercock;False;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+14;0;3;Andersson Mr. Anders Johan;Male;39;1;5;347082;31;Desconocido;S;Mr;Andersson;False;Desconocido;7;False;Adulto;4;Southampton;Falleció
+15;0;3;Vestrom Miss. Hulda Amanda Adolfina;Female;14;0;0;350406;8;Desconocido;S;Miss;Vestrom;False;Desconocido;1;True;Adolescente;8;Southampton;Falleció
+16;1;2;Hewlett Mrs. (Mary D Kingcome);Female;55;0;0;248706;16;Desconocido;S;Mrs;Hewlett;False;Desconocido;1;True;Adulto;16;Southampton;Sobrevivió
+17;0;3;Rice Master. Eugene;Male;2;4;1;382652;29;Desconocido;Q;Master;Rice;False;Desconocido;6;False;Niño;7;Queenstown;Falleció
+18;1;2;Williams Mr. Charles Eugene;Male;30;0;0;244373;13;Desconocido;S;Mr;Williams;True;Desconocido;1;True;Adulto joven;13;Southampton;Sobrevivió
+19;0;3;Vander Planke Mrs. Julius (Emelia Maria Vandemoortele);Female;31;1;0;345763;18;Desconocido;S;Mrs;Vander Planke;False;Desconocido;2;False;Adulto joven;18;Southampton;Falleció
+20;1;3;Masselmani Mrs. Fatima;Female;35;0;0;2649;7;Desconocido;C;Mrs;Masselmani;True;Desconocido;1;True;Adulto;7;Cherburgo;Sobrevivió
+21;0;2;Fynney Mr. Joseph J;Male;35;0;0;239865;26;Desconocido;S;Mr;Fynney;False;Desconocido;1;True;Adulto;13;Southampton;Falleció
+22;1;2;Beesley Mr. Lawrence;Male;34;0;0;248698;13;D56;S;Mr;Beesley;False;D;1;True;Adulto joven;13;Southampton;Sobrevivió
+23;1;3;McGowan Miss. Anna Annie;Female;15;0;0;330923;8;Desconocido;Q;Miss;McGowan;False;Desconocido;1;True;Adolescente;8;Queenstown;Sobrevivió
+24;1;1;Sloper Mr. William Thompson;Male;28;0;0;113788;36;A6;S;Mr;Sloper;False;A;1;True;Adulto joven;36;Southampton;Sobrevivió
+25;0;3;Palsson Miss. Torborg Danira;Female;8;3;1;349909;21;Desconocido;S;Miss;Palsson;False;Desconocido;5;False;Niño;5;Southampton;Falleció
+26;1;3;Asplund Mrs. Carl Oscar (Selma Augusta Emilia Johansson);Female;38;1;5;347077;31;Desconocido;S;Mrs;Asplund;False;Desconocido;7;False;Adulto;8;Southampton;Sobrevivió
+27;0;3;Emir Mr. Farred Chehab;Male;30;0;0;2631;7;Desconocido;C;Mr;Emir;True;Desconocido;1;True;Adulto joven;7;Cherburgo;Falleció
+28;0;1;Fortune Mr. Charles Alexander;Male;19;3;2;19950;263;C23 C25 C27;S;Mr;Fortune;False;C;6;False;Adulto joven;66;Southampton;Falleció
+29;1;3;O'Dwyer Miss. Ellen Nellie;Female;21;0;0;330959;8;Desconocido;Q;Miss;O'Dwyer;True;Desconocido;1;True;Adulto joven;8;Queenstown;Sobrevivió
+30;0;3;Todoroff Mr. Lalio;Male;30;0;0;349216;8;Desconocido;S;Mr;Todoroff;True;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+31;0;1;Uruchurtu Don. Manuel E;Male;40;0;0;PC 17601;277;Desconocido;C;Don;Uruchurtu;False;Desconocido;1;True;Adulto;277;Cherburgo;Falleció
+32;1;1;Spencer Mrs. William Augustus (Marie Eugenie);Female;35;1;0;PC 17569;147;B78;C;Mrs;Spencer;True;B;2;False;Adulto;73;Cherburgo;Sobrevivió
+33;1;3;Glynn Miss. Mary Agatha;Female;21;0;0;335677;8;Desconocido;Q;Miss;Glynn;True;Desconocido;1;True;Adulto joven;8;Queenstown;Sobrevivió
+34;0;2;Wheadon Mr. Edward H;Male;66;0;0;C.A. 24579;10;Desconocido;S;Mr;Wheadon;False;Desconocido;1;True;Mayor;5;Southampton;Falleció
+35;0;1;Meyer Mr. Edgar Joseph;Male;28;1;0;PC 17604;82;Desconocido;C;Mr;Meyer;False;Desconocido;2;False;Adulto joven;41;Cherburgo;Falleció
+36;0;1;Holverson Mr. Alexander Oskar;Male;42;1;0;113789;52;Desconocido;S;Mr;Holverson;False;Desconocido;2;False;Adulto;26;Southampton;Falleció
+37;1;3;Mamee Mr. Hanna;Male;30;0;0;2677;7;Desconocido;C;Mr;Mamee;True;Desconocido;1;True;Adulto joven;7;Cherburgo;Sobrevivió
+38;0;3;Cann Mr. rne st Charles;Male;23;0;0;A/5 252;8;Desconocido;S;Mr;Cann;False;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+39;0;3;Vander Planke Miss. Augusta Maria;Female;18;2;0;345764;18;Desconocido;S;Miss;Vander Planke;False;Desconocido;3;False;Adulto joven;9;Southampton;Falleció
+40;1;3;Nicola-Yarred Miss. Jamila;Female;14;1;0;2651;11;Desconocido;C;Miss;Nicola-Yarred;False;Desconocido;2;False;Adolescente;6;Cherburgo;Sobrevivió
+41;0;3;Ahlin Mrs. Johan (Johanna Persdotter Larsson);Female;40;1;0;7546;9;Desconocido;S;Mrs;Ahlin;False;Desconocido;2;False;Adulto;9;Southampton;Falleció
+42;0;2;Turpin Mrs. William John Robert (Dorothy Ann Wonnacott);Female;27;1;0;11668;21;Desconocido;S;Mrs;Turpin;False;Desconocido;2;False;Adulto joven;10;Southampton;Falleció
+43;0;3;Kraeff Mr. Theodor;Male;30;0;0;349253;8;Desconocido;C;Mr;Kraeff;True;Desconocido;1;True;Adulto joven;8;Cherburgo;Falleció
+44;1;2;Laroche Miss. Simonne Marie Anne Andree;Female;3;1;2;SC/PARIS 2123;42;Desconocido;C;Miss;Laroche;False;Desconocido;4;False;Niño;14;Cherburgo;Sobrevivió
+45;1;3;Devaney Miss. Margaret Delia;Female;19;0;0;330958;8;Desconocido;Q;Miss;Devaney;False;Desconocido;1;True;Adulto joven;8;Queenstown;Sobrevivió
+46;0;3;Rogers Mr. William John;Male;30;0;0;SC/A4 23567;8;Desconocido;S;Mr;Rogers;True;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+47;0;3;Lennon Mr. Denis;Male;30;1;0;370371;16;Desconocido;Q;Mr;Lennon;True;Desconocido;2;False;Adulto joven;16;Queenstown;Falleció
+48;1;3;O'Driscoll Miss. Bridget;Female;21;0;0;14311;8;Desconocido;Q;Miss;O'Driscoll;True;Desconocido;1;True;Adulto joven;8;Queenstown;Sobrevivió
+49;0;3;Samaan Mr. Youssef;Male;30;2;0;2662;22;Desconocido;C;Mr;Samaan;True;Desconocido;3;False;Adulto joven;22;Cherburgo;Falleció
+50;0;3;Arnold-Franchi Mrs. Josef (Josefine Franchi);Female;18;1;0;349237;18;Desconocido;S;Mrs;Arnold-Franchi;False;Desconocido;2;False;Adulto joven;9;Southampton;Falleció
+51;0;3;Panula Master. Juha Niilo;Male;7;4;1;3101295;40;Desconocido;S;Master;Panula;False;Desconocido;6;False;Niño;7;Southampton;Falleció
+52;0;3;Nosworthy Mr. Richard Cater;Male;21;0;0;A/4 39886;8;Desconocido;S;Mr;Nosworthy;False;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+53;1;1;Harper Mrs. Henry Sleeper (Myna Haxtun);Female;49;1;0;PC 17572;77;D33;C;Mrs;Harper;False;D;2;False;Adulto;26;Cherburgo;Sobrevivió
+54;1;2;Faunthorpe Mrs. Lizzie (Elizabeth Anne Wilkinson);Female;29;1;0;2926;26;Desconocido;S;Mrs;Faunthorpe;False;Desconocido;2;False;Adulto joven;26;Southampton;Sobrevivió
+55;0;1;Ostby Mr. Engelhart Cornelius;Male;65;0;1;113509;62;B30;C;Mr;Ostby;False;B;2;False;Mayor;62;Cherburgo;Falleció
+56;1;1;Woolner Mr. Hugh;Male;30;0;0;19947;36;C52;S;Mr;Woolner;True;C;1;True;Adulto joven;36;Southampton;Sobrevivió
+57;1;2;Rugg Miss. Emily;Female;21;0;0;C.A. 31026;10;Desconocido;S;Miss;Rugg;False;Desconocido;1;True;Adulto joven;10;Southampton;Sobrevivió
+58;0;3;Novel Mr. Mansouer;Male;28;0;0;2697;7;Desconocido;C;Mr;Novel;False;Desconocido;1;True;Adulto joven;7;Cherburgo;Falleció
+59;1;2;West Miss. Constance Mirium;Female;5;1;2;C.A. 34651;28;Desconocido;S;Miss;West;False;Desconocido;4;False;Niño;9;Southampton;Sobrevivió
+60;0;3;Goodwni Master. William Frederick;Male;11;4;2;C.A. 2144;47;Desconocido;S;Master;Goodwni;False;Desconocido;7;False;Niño;8;Southampton;Falleció
+61;0;3;Sirayanian Mr. Orsen;Male;22;0;0;2669;7;Desconocido;C;Mr;Sirayanian;False;Desconocido;1;True;Adulto joven;7;Cherburgo;Falleció
+62;1;1;Icard Miss. Amelie;Female;38;0;0;113572;80;B28;C;Miss;Icard;False;B;1;True;Adulto;40;Cherburgo;Sobrevivió
+63;0;1;Harris Mr.Henry Birkhardt;Male;45;1;0;369733;88;C83;S;Mr;Harris;False;C;2;False;Adulto;88;Southampton;Falleció
+64;0;3;Skoog Master. Harald;Male;4;3;2;347088;28;Desconocido;S;Master;Skoog;False;Desconocido;6;False;Niño;5;Southampton;Falleció
+65;0;1;Stewart Mr. Albert A;Male;30;0;0;PC 17605;277;Desconocido;C;Mr;Stewart;True;Desconocido;1;True;Adulto joven;277;Cherburgo;Falleció
+66;1;3;Moubarek Master. Gerios;Male;4;1;1;2661;15;Desconocido;C;Master;Moubarek;True;Desconocido;3;False;Niño;15;Cherburgo;Sobrevivió
+67;1;2;Nye Mrs. (Elizabeth Ramell);Female;29;0;0;C.A. 29395;10;F33;S;Mrs;Nye;False;F;1;True;Adulto joven;5;Southampton;Sobrevivió
+68;0;3;Crease Mr. Ernest James;Male;19;0;0;S.P. 3464;8;Desconocido;S;Mr;Crease;False;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+69;1;3;Andersson Miss. Erna Alexandra;Female;17;4;2;311281;9;Desconocido;S;Miss;Andersson;False;Desconocido;7;False;Adolescente;9;Southampton;Sobrevivió
+70;0;3;Kink Mr. Vincenz;Male;26;2;0;315151;9;Desconocido;S;Mr;Kink;False;Desconocido;3;False;Adulto joven;9;Southampton;Falleció
+71;0;2;Jenkin Mr. Stephen Curnow;Male;32;0;0;C.A. 33111;10;Desconocido;S;Mr;Jenkin;False;Desconocido;1;True;Adulto joven;10;Southampton;Falleció
+72;0;3;Goodwin Miss. Lillian Amy;Female;16;5;2;C.A. 2144;47;Desconocido;S;Miss;Goodwin;False;Desconocido;8;False;Adolescente;8;Southampton;Falleció
+73;0;2;Hood Mr. Ambrose Jr;Male;21;0;0;S.O.C. 14879;74;Desconocido;S;Mr;Hood;False;Desconocido;1;True;Adulto joven;15;Southampton;Falleció
+74;0;3;Chronopoulos Mr. Apostolos;Male;26;1;0;2680;14;Desconocido;C;Mr;Chronopoulos;False;Desconocido;2;False;Adulto joven;14;Cherburgo;Falleció
+75;1;3;Bing Mr. Lee;Male;32;0;0;1601;56;Desconocido;S;Mr;Bing;False;Desconocido;1;True;Adulto joven;9;Southampton;Sobrevivió
+76;0;3;moen Mr. Sigurd Hansen;Male;22;0;0;341823;8;F  G7 3;S;Mr;moen;False;F;1;True;Adulto joven;8;Southampton;Falleció
+77;0;3;Staneff Mr. Ivan;Male;30;0;0;349208;8;Desconocido;S;Mr;Staneff;True;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+78;0;3;Moutal Mr. Rahamin Heim;Male;30;0;5;374746;8;Desconocido;S;Mr;Moutal;True;Desconocido;6;False;Adulto joven;8;Southampton;Falleció
+79;1;2;Caldwell Master. Alden Gates;Male;1;0;2;248738;29;Desconocido;S;Master;Caldwell;False;Desconocido;3;False;Niño;14;Southampton;Sobrevivió
+80;1;3;Dowdell Miss. Elizabeth;Female;30;0;0;364516;12;Desconocido;S;Miss;Dowdell;False;Desconocido;1;True;Adulto joven;6;Southampton;Sobrevivió
+81;0;3;Waelens Mr. Achille;Male;22;0;0;345767;9;Desconocido;S;Mr;Waelens;False;Desconocido;1;True;Adulto joven;9;Southampton;Falleció
+82;1;3;Sheerlinck Mr. Jan Baptist;Male;29;0;0;345779;10;Desconocido;S;Mr;Sheerlinck;False;Desconocido;1;True;Adulto joven;10;Southampton;Sobrevivió
+83;1;3;McDermott Miss. Brigdet Delia;Female;21;0;0;330932;8;Desconocido;Q;Miss;McDermott;True;Desconocido;1;True;Adulto joven;8;Queenstown;Sobrevivió
+84;0;1;Carrau Mr. Francisco M;Male;28;0;0;113059;47;Desconocido;S;Mr;Carrau;False;Desconocido;1;True;Adulto joven;47;Southampton;Falleció
+85;1;2;Ilett Miss. Bertha;Female;17;0;0;S.O.C. 14885;10;Desconocido;S;Miss;Ilett;False;Desconocido;1;True;Adolescente;10;Southampton;Sobrevivió
+86;1;3;Backstrom Mrs. Karl Alfred (Maria Mathilda Gustafsson);Female;33;3;0;3101278;16;Desconocido;S;Mrs;Backstrom;False;Desconocido;4;False;Adulto joven;8;Southampton;Sobrevivió
+87;0;3;Ford Mr. William Neal;Male;16;1;3;W./C. 6608;34;Desconocido;S;Mr;Ford;False;Desconocido;5;False;Adolescente;11;Southampton;Falleció
+88;0;3;Slocovski Mr. Selman Francis;Male;30;0;0;SOTON/O.Q. 392086;8;Desconocido;S;Mr;Slocovski;True;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+89;1;1;Fortune Miss. Mabel Helen;Female;23;3;2;19950;263;C23 C25 C27;S;Miss;Fortune;False;C;6;False;Adulto joven;66;Southampton;Sobrevivió
+90;0;3;Celotti Mr. Francesco;Male;24;0;0;343275;8;Desconocido;S;Mr;Celotti;False;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+91;0;3;Christmann Mr. Emil;Male;29;0;0;343276;8;Desconocido;S;Mr;Christmann;False;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+92;0;3;Andreasson Mr. Paul Edvin;Male;20;0;0;347466;8;Desconocido;S;Mr;Andreasson;False;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+93;0;1;Chaffee Mr. Herbert Fuller;Male;46;1;0;WE/P 5734;61;E31;S;Mr;Chaffee;False;E;2;False;Adulto;61;Southampton;Falleció
+94;0;3;Dean Mr. Bertram Frank;Male;26;1;2;C.A. 2315;21;Desconocido;S;Mr;Dean;False;Desconocido;4;False;Adulto joven;10;Southampton;Falleció
+95;0;3;Coxon Mr. Daniel;Male;59;0;0;364500;7;Desconocido;S;Mr;Coxon;False;Desconocido;1;True;Adulto;7;Southampton;Falleció
+96;0;3;Sho rney Mr. Charles Joseph;Male;30;0;0;734910;8;Desconocido;S;Mr;Sho rney;True;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+97;0;1;Goldschmidt Mr. George B;Male;71;0;0;PC 17754;347;A5;C;Mr;Goldschmidt;False;A;1;True;Mayor;347;Cherburgo;Falleció
+98;1;1;Grenfield Mr. William Bertram;Male;23;0;1;PC 17759;63;D10 D12;C;Mr;Grenfield;False;D;2;False;Adulto joven;63;Cherburgo;Sobrevivió
+99;1;2;Doling Mrs. John T (Ada Julia Bone);Female;34;0;1;231919;23;Desconocido;S;Mrs;Doling;False;Desconocido;2;False;Adulto joven;12;Southampton;Sobrevivió
+100;0;2;Kantor Mr. Sinai;Male;34;1;0;244367;26;Desconocido;S;Mr;Kantor;False;Desconocido;2;False;Adulto joven;13;Southampton;Falleció
+101;0;3;Petranec Miss. Matilda;Female;28;0;0;349245;8;Desconocido;S;Miss;Petranec;False;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+102;0;3;Petroff Mr. Pastcho (Pentcho);Male;30;0;0;349215;8;Desconocido;S;Mr;Petroff;True;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+103;0;1;White Mr. Richard Frasar;Male;21;0;1;35281;77;D26;S;Mr;White;False;D;2;False;Adulto joven;39;Southampton;Falleció
+104;0;3;Johansson Mr. Gsutaf Joel;Male;33;0;0;7540;9;Desconocido;S;Mr;Johansson;False;Desconocido;1;True;Adulto joven;9;Southampton;Falleció
+105;0;3;Gustafsson Mr. Anders Vilhelm;Male;37;2;0;3101276;8;Desconocido;S;Mr;Gustafsson;False;Desconocido;3;False;Adulto;8;Southampton;Falleció
+106;0;3;Mionoff Mr. Stoytcho;Male;28;0;0;349207;8;Desconocido;S;Mr;Mionoff;False;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+107;1;3;Salkjelsvik Miss. Anna Kristine;Female;21;0;0;343120;8;Desconocido;S;Miss;Salkjelsvik;False;Desconocido;1;True;Adulto joven;8;Southampton;Sobrevivió
+108;1;3;Moss Mr. Albert Johan;Male;30;0;0;312991;8;Desconocido;S;Mr;Moss;True;Desconocido;1;True;Adulto joven;8;Southampton;Sobrevivió
+109;0;3;Rekic Mr. Tido;Male;38;0;0;349249;8;Desconocido;S;Mr;Rekic;False;Desconocido;1;True;Adulto;8;Southampton;Falleció
+110;1;3;Moran Miss. Bertha;Female;21;1;0;371110;24;Desconocido;Q;Miss;Moran;True;Desconocido;2;False;Adulto joven;8;Queenstown;Sobrevivió
+111;0;1;Porter Mr. Walter Chamberlain;Male;47;0;0;110465;52;C110;S;Mr;Porter;False;C;1;True;Adulto;26;Southampton;Falleció
+112;0;3;Zabour Miss. Hileni;Female;14;1;0;2665;14;Desconocido;C;Miss;Zabour;False;Desconocido;2;False;Adolescente;7;Cherburgo;Falleció
+113;0;3;Barton Mr. David John;Male;22;0;0;324669;8;Desconocido;S;Mr;Barton;False;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+114;0;3;Jussila Miss. Katriina;Female;20;1;0;4136;10;Desconocido;S;Miss;Jussila;False;Desconocido;2;False;Adulto joven;10;Southampton;Falleció
+115;0;3;Attalah Miss. Malake;Female;17;0;0;2627;14;Desconocido;C;Miss;Attalah;False;Desconocido;1;True;Adolescente;7;Cherburgo;Falleció
+116;0;3;Pekoniemi Mr. Edvard;Male;21;0;0;STON/O2. 3101294;8;Desconocido;S;Mr;Pekoniemi;False;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+117;0;3;Connors Mr. Patrick;Male;70;0;0;370369;8;Desconocido;Q;Mr;Connors;False;Desconocido;1;True;Mayor;8;Queenstown;Falleció
+118;0;2;Turpin Mr. William John Robert;Male;29;1;0;11668;21;Desconocido;S;Mr;Turpin;False;Desconocido;2;False;Adulto joven;10;Southampton;Falleció
+119;0;1;Baxter Mr. Quigg Edmond;Male;24;0;1;PC 17558;248;B58 B60;C;Mr;Baxter;False;B;2;False;Adulto joven;124;Cherburgo;Falleció
+120;0;3;Andersson Miss. Ellis Anna Maria;Female;2;4;2;347082;31;Desconocido;S;Miss;Andersson;False;Desconocido;7;False;Niño;4;Southampton;Falleció
+121;0;2;Hickman Mr. Stanley George;Male;21;2;0;S.O.C. 14879;74;Desconocido;S;Mr;Hickman;False;Desconocido;3;False;Adulto joven;15;Southampton;Falleció
+122;0;3;Moore Mr. Leonard Charles;Male;30;0;0;A/4 54510;8;Desconocido;S;Mr;Moore;True;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+123;0;2;Nasser Mr. Nicholas;Male;32;1;0;237736;30;Desconocido;C;Mr;Nasser;False;Desconocido;2;False;Adulto joven;15;Cherburgo;Falleció
+124;1;2;Webber Miss. Susan;Female;32;0;0;27267;13;E101;S;Miss;Webber;False;E;1;True;Adulto joven;13;Southampton;Sobrevivió
+125;0;1;White Mr. Percival Wayland;Male;54;0;1;35281;77;D26;S;Mr;White;False;D;2;False;Adulto;39;Southampton;Falleció
+126;1;3;Nicola-Yarred Master. Elias;Male;12;1;0;2651;11;Desconocido;C;Master;Nicola-Yarred;False;Desconocido;2;False;Adolescente;6;Cherburgo;Sobrevivió
+127;0;3;McMahon Mr. Martin;Male;30;0;0;370372;8;Desconocido;Q;Mr;McMahon;True;Desconocido;1;True;Adulto joven;8;Queenstown;Falleció
+128;1;3;madsen Mr. Fridtjof Arne;Male;30;0;0;CC 17369;7;Desconocido;S;Mr;madsen;True;Desconocido;1;True;Adulto joven;7;Southampton;Sobrevivió
+129;1;3;Peter Miss. Anna;Female;21;1;1;2668;22;F E69;C;Miss;Peter;True;F;3;False;Adulto joven;11;Cherburgo;Sobrevivió
+130;0;3;Ekstrom Mr. Johan;Male;45;0;0;347061;70;Desconocido;S;Mr;Ekstrom;False;Desconocido;1;True;Adulto;70;Southampton;Falleció
+131;0;3;Drazenoic Mr. Jozef;Male;33;0;0;349241;8;Desconocido;C;Mr;Drazenoic;False;Desconocido;1;True;Adulto joven;8;Cherburgo;Falleció
+132;0;3;Coelho Mr. Domingos Fernandeo;Male;20;0;0;SOTON/O.Q. 3101307;7;Desconocido;S;Mr;Coelho;False;Desconocido;1;True;Adulto joven;7;Southampton;Falleció
+133;0;3;Robins Mrs. Alexander A (Grace Charity Laury);Female;47;1;0;A/5 3337;14;Desconocido;S;Mrs;Robins;False;Desconocido;2;False;Adulto;14;Southampton;Falleció
+134;1;2;Weisz Mrs. Leopold (Mathilde Francoise Pede);Female;29;1;0;228414;26;Desconocido;S;Mrs;Weisz;False;Desconocido;2;False;Adulto joven;26;Southampton;Sobrevivió
+135;0;2;Sobey Mr. Samuel James Hayden;Male;25;0;0;C.A. 29178;13;Desconocido;S;Mr;Sobey;False;Desconocido;1;True;Adulto joven;13;Southampton;Falleció
+136;0;2;Richard Mr. Emile;Male;23;0;0;SC/PARIS 2133;15;Desconocido;C;Mr;Richard;False;Desconocido;1;True;Adulto joven;15;Cherburgo;Falleció
+137;1;1;Newsom Miss. Helen Monypeny;Female;19;0;2;11752;263;D47;S;Miss;Newsom;False;D;3;False;Adulto joven;263;Southampton;Sobrevivió
+138;0;1;Futrelle Mr. Jacques Heath;Male;37;1;0;113803;53;C123;S;Mr;Futrelle;False;C;2;False;Adulto;27;Southampton;Falleció
+139;0;3;Osen Mr. Olaf Elon;Male;16;0;0;7534;9;Desconocido;S;Mr;Osen;False;Desconocido;1;True;Adolescente;5;Southampton;Falleció
+140;0;1;Giglio Mr. Victor;Male;24;0;0;PC 17593;79;B86;C;Mr;Giglio;False;B;1;True;Adulto joven;40;Cherburgo;Falleció
+141;0;3;Boulos Mrs. Joseph (Sultana);Female;35;0;2;2678;15;Desconocido;C;Mrs;Boulos;True;Desconocido;3;False;Adulto;8;Cherburgo;Falleció
+142;1;3;Nysten Miss. Anna Sofia;Female;22;0;0;347081;8;Desconocido;S;Miss;Nysten;False;Desconocido;1;True;Adulto joven;8;Southampton;Sobrevivió
+143;1;3;Hakkarainen Mrs. Pekka Pietari (Elin Matilda Dolck);Female;24;1;0;STON/O2. 3101279;16;Desconocido;S;Mrs;Hakkarainen;False;Desconocido;2;False;Adulto joven;8;Southampton;Sobrevivió
+144;0;3;Burke Mr. Jeremiah;Male;19;0;0;365222;7;Desconocido;Q;Mr;Burke;False;Desconocido;1;True;Adulto joven;7;Queenstown;Falleció
+145;0;2;Andrew Mr. Edgardo Samuel;Male;18;0;0;231945;12;Desconocido;S;Mr;Andrew;False;Desconocido;1;True;Adulto joven;12;Southampton;Falleció
+146;0;2;Nicholls Mr. Joseph Charles;Male;19;1;1;C.A. 33112;37;Desconocido;S;Mr;Nicholls;False;Desconocido;3;False;Adulto joven;18;Southampton;Falleció
+147;1;3;Andersson Mr. August Edvard (Wennerstrom);Male;27;0;0;350043;8;Desconocido;S;Mr;Andersson;False;Desconocido;1;True;Adulto joven;8;Southampton;Sobrevivió
+148;0;3;Ford Miss. Robina Maggie Ruby;Female;9;2;2;W./C. 6608;34;Desconocido;S;Miss;Ford;False;Desconocido;5;False;Niño;11;Southampton;Falleció
+149;0;2;Navratil Mr. Michel (Louis M Hoffman);Male;36;0;2;230080;26;F2;S;Mr;Navratil;False;F;3;False;Adulto;9;Southampton;Falleció
+150;0;2;Byles Rev. Thomas Roussel Davids;Male;42;0;0;244310;13;Desconocido;S;Rev;Byles;False;Desconocido;1;True;Adulto;13;Southampton;Falleció
+151;0;2;Bateman Rev. Robert James;Male;51;0;0;S.O.P. 1166;13;Desconocido;S;Rev;Bateman;False;Desconocido;1;True;Adulto;13;Southampton;Falleció
+152;1;1;P eras rs. Thomas (Edith Wearne);Female;22;1;0;113776;67;C2;S;Mrs;P eras;False;C;2;False;Adulto joven;33;Southampton;Sobrevivió
+153;0;3;Meo Mr. Alfonzo;Male;56;0;0;A/5 11206;8;Desconocido;S;Mr;Meo;False;Desconocido;1;True;Adulto;8;Southampton;Falleció
+154;0;3;van Billiard Mr. Austin Blyler;Male;40;0;2;A/5 851;14;Desconocido;S;Mr;van Billiard;False;Desconocido;3;False;Adulto;14;Southampton;Falleció
+155;0;3;Olsen Mr. Ole Martin;Male;30;0;0;FA 265302;7;Desconocido;S;Mr;Olsen;True;Desconocido;1;True;Adulto joven;7;Southampton;Falleció
+156;0;1;Williams Mr. Charles Duane;Male;51;0;1;PC 17597;61;Desconocido;C;Mr;Williams;False;Desconocido;2;False;Adulto;61;Cherburgo;Falleció
+157;1;3;Gilnagh Miss. Katherine Katie;Female;16;0;0;35851;8;Desconocido;Q;Miss;Gilnagh;False;Desconocido;1;True;Adolescente;8;Queenstown;Sobrevivió
+158;0;3;Corn Mr. Harry;Male;30;0;0;SOTON/O.Q. 392090;8;Desconocido;S;Mr;Corn;False;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+159;0;3;Smiljanic Mr. Mile;Male;30;0;0;315037;9;Desconocido;S;Mr;Smiljanic;True;Desconocido;1;True;Adulto joven;9;Southampton;Falleció
+160;0;3;Sage Master. Thomas Henry;Male;4;8;2;C.A. 2343;70;Desconocido;S;Master;Sage;True;Desconocido;11;False;Niño;10;Southampton;Falleció
+161;0;3;Cribb Mr. John Hatfield;Male;44;0;1;371362;16;Desconocido;S;Mr;Cribb;False;Desconocido;2;False;Adulto;16;Southampton;Falleció
+162;1;2;Watt Mrs. James (Elizabeth Bessie Inglis Milne);Female;40;0;0;C.A. 33595;16;Desconocido;S;Mrs;Watt;False;Desconocido;1;True;Adulto;16;Southampton;Sobrevivió
+163;0;3;Bengtsson Mr. John Viktor;Male;26;0;0;347068;8;Desconocido;S;Mr;Bengtsson;False;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+164;0;3;Calic Mr. Jovo;Male;17;0;0;315093;9;Desconocido;S;Mr;Calic;False;Desconocido;1;True;Adolescente;9;Southampton;Falleció
+165;0;3;Panula Master. Eino Viljami;Male;1;4;1;3101295;40;Desconocido;S;Master;Panula;False;Desconocido;6;False;Niño;7;Southampton;Falleció
+166;1;3;Goldsmith Master. Frank John William Frankie;Male;9;0;2;363291;21;Desconocido;S;Master;Goldsmith;False;Desconocido;3;False;Niño;7;Southampton;Sobrevivió
+167;1;1;Chibnall Mrs. (Edith Martha Bowerman);Female;35;0;1;113505;55;E33;S;Mrs;Chibnall;True;E;2;False;Adulto;28;Southampton;Sobrevivió
+168;0;3;Skoog Mrs. William (Anna Bernhardina Karlsson);Female;45;1;4;347088;28;Desconocido;S;Mrs;Skoog;False;Desconocido;6;False;Adulto;5;Southampton;Falleció
+169;0;1;Baumann Mr. John D;Male;30;0;0;PC 17318;259;Desconocido;S;Mr;Baumann;True;Desconocido;1;True;Adulto joven;259;Southampton;Falleció
+170;0;3;Ling Mr. Lee;Male;28;0;0;1601;56;Desconocido;S;Mr;Ling;False;Desconocido;1;True;Adulto joven;9;Southampton;Falleció
+171;0;1;Van der hoef Mr. Wyckoff;Male;61;0;0;111240;34;B19;S;Mr;Van der hoef;False;B;1;True;Mayor;34;Southampton;Falleció
+172;0;3;Rci Master. Arthur;Male;4;0;1;3826652;29;Desconocido;Q;Master;Rci;False;Desconocido;2;False;Niño;29;Queenstown;Falleció
+173;1;3;Johnson Miss. Eleanor Ileen;Female;1;1;1;347742;11;Desconocido;S;Miss;Johnson;False;Desconocido;3;False;Niño;4;Southampton;Sobrevivió
+174;0;3;Sivvloa Mr. Antti Wilhhelm;Male;20;0;0;STON/O2. 3101280;8;Desconocido;S;Mr;Sivvloa;False;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+175;0;1;Smith Mr. James Clinch;Male;56;0;0;17764;307;A7;C;Mr;Smith;False;A;1;True;Adulto;307;Cherburgo;Falleció
+176;0;3;Klasen Mr. Klas Albin;Male;18;1;1;350404;8;Desconocido;S;Mr;Klasen;False;Desconocido;3;False;Adulto joven;8;Southampton;Falleció
+177;0;3;Lefebre Master. Henry Forbes;Male;4;3;1;4133;25;Desconocido;S;Master;Lefebre;True;Desconocido;5;False;Niño;6;Southampton;Falleció
+178;0;1;Isham Miss. Ann Elizabeth;Female;50;0;0;PC 17595;287;C49;C;Miss;Isham;False;C;1;True;Adulto;287;Cherburgo;Falleció
+179;0;2;Hale Mr. Reginald;Male;30;0;0;250653;13;Desconocido;S;Mr;Hale;False;Desconocido;1;True;Adulto joven;13;Southampton;Falleció
+180;0;3;Leonard Mr. Lionel;Male;36;0;0;LINE;0;Desconocido;S;Mr;Leonard;False;Desconocido;1;True;Adulto;0;Southampton;Falleció
+181;0;3;Sage Miss. Constance Gladys;Female;21;8;2;C.A. 2343;70;Desconocido;S;Miss;Sage;True;Desconocido;11;False;Adulto joven;10;Southampton;Falleció
+182;0;2;Pernot Mr. Rene;Male;30;0;0;SC/PARIS 2131;15;Desconocido;C;Mr;Pernot;True;Desconocido;1;True;Adulto joven;15;Cherburgo;Falleció
+183;0;3;Asplund Master. Clarence Gustaf Hugo;Male;9;4;2;347077;8;Desconocido;S;Master;Asplund;False;Desconocido;7;False;Niño;2;Southampton;Falleció
+184;1;2;Becker Master. Richard F;Male;1;2;1;230136;39;F4;S;Master;Becker;False;F;4;False;Niño;20;Southampton;Sobrevivió
+185;1;3;Kink-Heilmann Miss. Luise Gretchen;Female;4;0;2;315153;22;Desconocido;S;Miss;Kink-Heilmann;False;Desconocido;3;False;Niño;22;Southampton;Sobrevivió
+186;0;1;oRad Mr. Hugh Rosoe;Male;30;0;0;113767;50;A32;S;Mr;oRad;True;A;1;True;Adulto joven;50;Southampton;Falleció
+187;1;3;O'Brien Mrs. Thomas (Johanna Hannah Godfrey);Female;35;1;0;370365;16;Desconocido;Q;Mrs;O'Brien;True;Desconocido;2;False;Adulto;8;Queenstown;Sobrevivió
+188;1;1;Romaine Mr. Charles Hallace (Mr C Rolmane);Male;45;0;0;111428;27;Desconocido;S;Mr;Romaine;False;Desconocido;1;True;Adulto;27;Southampton;Sobrevivió
+189;0;3;Bourke Mr. John;Male;40;1;1;364849;16;Desconocido;Q;Mr;Bourke;False;Desconocido;3;False;Adulto;8;Queenstown;Falleció
+190;0;3;Turcin Mr. Stjepan;Male;36;0;0;349247;8;Desconocido;S;Mr;Turcin;False;Desconocido;1;True;Adulto;8;Southampton;Falleció
+191;1;2;Pinsky Mrs. (Rosa);Female;32;0;0;234604;13;Desconocido;S;Mrs;Pinsky;False;Desconocido;1;True;Adulto joven;13;Southampton;Sobrevivió
+192;0;2;Carbines Mr. William;Male;19;0;0;28424;13;Desconocido;S;Mr;Carbines;False;Desconocido;1;True;Adulto joven;13;Southampton;Falleció
+193;1;3;Andersen-Jensen Miss. Carla Christine Nielsine;Female;19;1;0;350046;8;Desconocido;S;Miss;Andersen-Jensen;False;Desconocido;2;False;Adulto joven;8;Southampton;Sobrevivió
+194;1;2;Navratil Master. Michel M;Male;3;1;1;230080;26;F2;S;Master;Navratil;False;F;3;False;Niño;9;Southampton;Sobrevivió
+195;1;1;Brown Mrs. James Joseph (Margaret Tobin);Female;44;0;0;PC 17610;277;B4;C;Mrs;Brown;False;B;1;True;Adulto;277;Cherburgo;Sobrevivió
+196;1;1;Lurette Miss. Elise;Female;58;0;0;PC 17569;147;B80;C;Miss;Lurette;False;B;1;True;Adulto;73;Cherburgo;Sobrevivió
+197;0;3;Mernagh Mr. Robert;Male;30;0;0;368703;8;Desconocido;Q;Mr;Mernagh;True;Desconocido;1;True;Adulto joven;8;Queenstown;Falleció
+198;0;3;Olsen Mr. Karl Siegwart Andreas;Male;42;0;1;4579;8;Desconocido;S;Mr;Olsen;False;Desconocido;2;False;Adulto;8;Southampton;Falleció
+199;1;3;Madigan Miss. Margaret Maggie;Female;21;0;0;370370;8;Desconocido;Q;Miss;Madigan;True;Desconocido;1;True;Adulto joven;8;Queenstown;Sobrevivió
+200;0;2;Yrois Miss. Henriette (Mrs Harbeck);Female;24;0;0;248747;13;Desconocido;S;Miss;Yrois;False;Desconocido;1;True;Adulto joven;13;Southampton;Falleció
+201;0;3;Vande Walle Mr. Nestor Cyriel;Male;28;0;0;345770;10;Desconocido;S;Mr;Vande Walle;False;Desconocido;1;True;Adulto joven;10;Southampton;Falleció
+202;0;3;Sage Mr. Frederick;Male;30;8;2;C.A. 2343;70;Desconocido;S;Mr;Sage;True;Desconocido;11;False;Adulto joven;10;Southampton;Falleció
+203;0;3;Johanso Mr. Jakob Alfred;Male;34;0;0;3101264;7;Desconocido;S;Mr;Johanso;False;Desconocido;1;True;Adulto joven;7;Southampton;Falleció
+204;0;3;Youseff Mr. Gerious;Male;46;0;0;2628;7;Desconocido;C;Mr;Youseff;False;Desconocido;1;True;Adulto;7;Cherburgo;Falleció
+205;1;3;Cohen Mr. Gurshon Gus;Male;18;0;0;A/5 3540;8;Desconocido;S;Mr;Cohen;False;Desconocido;1;True;Adulto joven;8;Southampton;Sobrevivió
+206;0;3;Strom Miss. Telma Matilda;Female;2;0;1;347054;10;G6;S;Miss;Strom;False;G;2;False;Niño;5;Southampton;Falleció
+207;0;3;Backstrom Mr. Karl Alfred;Male;32;1;0;3101278;16;Desconocido;S;Mr;Backstrom;False;Desconocido;2;False;Adulto joven;8;Southampton;Falleció
+208;1;3;Albimona Mr. Nassef Cassem;Male;26;0;0;2699;19;Desconocido;C;Mr;Albimona;False;Desconocido;1;True;Adulto joven;9;Cherburgo;Sobrevivió
+209;1;3;Carr Miss. Helen Ellen;Female;16;0;0;367231;8;Desconocido;Q;Miss;Carr;False;Desconocido;1;True;Adolescente;8;Queenstown;Sobrevivió
+210;1;1;Blank Mr. Henry;Male;40;0;0;112277;31;A31;C;Mr;Blank;False;A;1;True;Adulto;31;Cherburgo;Sobrevivió
+211;0;3;Ali Mr. Ahmed;Male;24;0;0;SOTON/O.Q. 3101311;7;Desconocido;S;Mr;Ali;False;Desconocido;1;True;Adulto joven;7;Southampton;Falleció
+212;1;2;Cameron Miss. Clear Annie;Female;35;0;0;F.C.C. 13528;21;Desconocido;S;Miss;Cameron;False;Desconocido;1;True;Adulto;21;Southampton;Sobrevivió
+213;0;3;Perkin Mr. John Henry;Male;22;0;0;A/5 21174;7;Desconocido;S;Mr;Perkin;False;Desconocido;1;True;Adulto joven;7;Southampton;Falleció
+214;0;2;Givard Mr. Hans Kristensen;Male;30;0;0;250646;13;Desconocido;S;Mr;Givard;False;Desconocido;1;True;Adulto joven;13;Southampton;Falleció
+215;0;3;Kiernan Mr. Philip;Male;30;1;0;367229;8;Desconocido;Q;Mr;Kiernan;True;Desconocido;2;False;Adulto joven;8;Queenstown;Falleció
+216;1;1;Newell Miss. Madeleine;Female;31;1;0;35273;113;D36;C;Miss;Newell;False;D;2;False;Adulto joven;38;Cherburgo;Sobrevivió
+217;1;3;Honkanen Miss. Eliina;Female;27;0;0;STON/O2. 3101283;8;Desconocido;S;Miss;Honkanen;False;Desconocido;1;True;Adulto joven;8;Southampton;Sobrevivió
+218;0;2;Jacobsohn Mr. Sidney Samuel;Male;42;1;0;243847;27;Desconocido;S;Mr;Jacobsohn;False;Desconocido;2;False;Adulto;14;Southampton;Falleció
+219;1;1;Bazzani Miss. Albina;Female;32;0;0;11813;76;D15;C;Miss;Bazzani;False;D;1;True;Adulto joven;76;Cherburgo;Sobrevivió
+220;0;2;Harris Mr. Walter;Male;30;0;0;W./C. 14208;10;Desconocido;S;Mr;Harris;False;Desconocido;1;True;Adulto joven;10;Southampton;Falleció
+221;1;3;Sunderland Mr. Victor Francis;Male;16;0;0;SOTON/O.Q. 392089;8;Desconocido;S;Mr;Sunderland;False;Desconocido;1;True;Adolescente;8;Southampton;Sobrevivió
+222;0;2;Bracken Mr. James H;Male;27;0;0;220367;13;Desconocido;S;Mr;Bracken;False;Desconocido;1;True;Adulto joven;13;Southampton;Falleció
+223;0;3;Green Mr. George Henry;Male;51;0;0;21440;8;Desconocido;S;Mr;Green;False;Desconocido;1;True;Adulto;8;Southampton;Falleció
+224;0;3;Nenkoff Mr. Christo;Male;30;0;0;349234;8;Desconocido;S;Mr;Nenkoff;True;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+225;1;1;Hoyt Mr. Frederick Maxfield;Male;38;1;0;19943;90;C93;S;Mr;Hoyt;False;C;2;False;Adulto;45;Southampton;Sobrevivió
+226;0;3;Berglund Mr. Karl Ivar Sven;Male;22;0;0;P.P. 4348;9;Desconocido;S;Mr;Berglund;False;Desconocido;1;True;Adulto joven;9;Southampton;Falleció
+227;1;2;Mellors Mr. William John;Male;19;0;0;SW/PP 751;10;Desconocido;S;Mr;Mellors;False;Desconocido;1;True;Adulto joven;10;Southampton;Sobrevivió
+228;0;3;Lovell Mr. John Hall (Henry);Male;20;0;0;A/5 21173;7;Desconocido;S;Mr;Lovell;False;Desconocido;1;True;Adulto joven;7;Southampton;Falleció
+229;0;2;Fahlstrom Mr. Arne Jonas;Male;18;0;0;236171;13;Desconocido;S;Mr;Fahlstrom;False;Desconocido;1;True;Adulto joven;13;Southampton;Falleció
+230;0;3;Lefebre Miss. Mathilde;Female;21;3;1;4133;25;Desconocido;S;Miss;Lefebre;True;Desconocido;5;False;Adulto joven;6;Southampton;Falleció
+231;1;1;Harris Mrs. Henry Birkhardt (Irene Wallach);Female;35;1;0;36973;83;C83;S;Mrs;Harris;False;C;2;False;Adulto;83;Southampton;Sobrevivió
+232;0;3;Larsson Mr. Bengt Edvin;Male;29;0;0;347067;8;Desconocido;S;Mr;Larsson;False;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+233;0;2;Sjostedt Mr. Ernst Adolf;Male;59;0;0;237442;14;Desconocido;S;Mr;Sjostedt;False;Desconocido;1;True;Adulto;14;Southampton;Falleció
+234;1;3;Asplund Miss. Lillian Gertrud;Female;5;4;2;347077;31;Desconocido;S;Miss;Asplund;False;Desconocido;7;False;Niño;8;Southampton;Sobrevivió
+235;0;2;Leyson Mr. Robert William Norman;Male;24;0;0;C.A. 29566;10;Desconocido;S;Mr;Leyson;False;Desconocido;1;True;Adulto joven;10;Southampton;Falleció
+236;0;3;Harknett Miss. Alice Phoebe;Female;21;0;0;W./C. 6609;8;Desconocido;S;Miss;Harknett;True;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+237;0;2;Hold Mr. Stephen;Male;44;1;0;26707;26;Desconocido;S;Mr;Hold;False;Desconocido;2;False;Adulto;26;Southampton;Falleció
+238;1;2;Collyer Miss. Marjorie Lottie;Female;8;0;2;C.A. 31921;26;Desconocido;S;Miss;Collyer;False;Desconocido;3;False;Niño;9;Southampton;Sobrevivió
+239;0;2;Pengelly Mr. Frederick William;Male;19;0;0;28665;10;Desconocido;S;Mr;Pengelly;False;Desconocido;1;True;Adulto joven;10;Southampton;Falleció
+240;0;2;Hunt Mr. George Henry;Male;33;0;0;SCO/W 1585;12;Desconocido;S;Mr;Hunt;False;Desconocido;1;True;Adulto joven;12;Southampton;Falleció
+241;0;3;Zabour Miss. Thamine;Female;21;1;0;2665;14;Desconocido;C;Miss;Zabour;True;Desconocido;2;False;Adulto joven;7;Cherburgo;Falleció
+242;1;3;Murphy Miss. Katherine Kate;Female;21;1;0;367230;16;Desconocido;Q;Miss;Murphy;True;Desconocido;2;False;Adulto joven;8;Queenstown;Sobrevivió
+243;0;2;Coleridge Mr. Reginald Charles;Male;29;0;0;W./C. 14263;10;Desconocido;S;Mr;Coleridge;False;Desconocido;1;True;Adulto joven;10;Southampton;Falleció
+244;0;3;Maenpaa Mr. Matti Alexanteri;Male;22;0;0;STON/O2. 3101275;7;Desconocido;S;Mr;Maenpaa;False;Desconocido;1;True;Adulto joven;7;Southampton;Falleció
+245;0;3;Attalah Mr. Sleiman;Male;30;0;0;2694;7;Desconocido;C;Mr;Attalah;False;Desconocido;1;True;Adulto joven;7;Cherburgo;Falleció
+246;0;1;Minhan Dr. Walli am Edward;Male;44;2;0;19928;59;C7 8;Q;Dr;Minhan;False;C;3;False;Adulto;30;Queenstown;Falleció
+247;0;3;Lindahl Miss. Agda Thorilda Viktoria;Female;25;0;0;347071;8;Desconocido;S;Miss;Lindahl;False;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+248;1;2;Hamalainen Mrs. William (Anna);Female;24;0;2;250649;14;Desconocido;S;Mrs;Hamalainen;False;Desconocido;3;False;Adulto joven;7;Southampton;Sobrevivió
+249;1;1;Beckwith Mr. Richard Leonard;Male;37;1;1;11751;53;D35;S;Mr;Beckwith;False;D;3;False;Adulto;26;Southampton;Sobrevivió
+250;0;2;Carter Rev. Ernest Courtenay;Male;54;1;0;244252;26;Desconocido;S;Rev;Carter;False;Desconocido;2;False;Adulto;13;Southampton;Falleció
+251;0;3;Reed Mr. James George;Male;30;0;0;362316;7;Desconocido;S;Mr;Reed;True;Desconocido;1;True;Adulto joven;7;Southampton;Falleció
+252;0;3;Strom Mrs. Wilhelm (Elna Matilda Persson);Female;29;1;1;347054;10;G6;S;Mrs;Strom;False;G;3;False;Adulto joven;5;Southampton;Falleció
+253;0;1;Stead Mr. William Thomas;Male;62;0;0;113514;27;C87;S;Mr;Stead;False;C;1;True;Mayor;27;Southampton;Falleció
+254;0;3;Lobb Mr. William Arthur;Male;30;1;0;A/5 3336;16;Desconocido;S;Mr;Lobb;False;Desconocido;2;False;Adulto joven;8;Southampton;Falleció
+255;0;3;Rosblom Mrs. Viktor (Helena Wilhelmina);Female;41;0;2;370129;20;Desconocido;S;Mrs;Rosblom;False;Desconocido;3;False;Adulto;10;Southampton;Falleció
+256;1;3;Touma Mrs. Darwis (Hanne Youssef Razi);Female;29;0;2;2650;15;Desconocido;C;Mrs;Touma;False;Desconocido;3;False;Adulto joven;15;Cherburgo;Sobrevivió
+257;1;1;Thorne Mrs. Gertrude Maybelle;Female;35;0;0;PC 17585;79;Desconocido;C;Mrs;Thorne;True;Desconocido;1;True;Adulto;79;Cherburgo;Sobrevivió
+258;1;1;Cherry Miss. Gladys;Female;30;0;0;110152;86;B77;S;Miss;Cherry;False;B;1;True;Adulto joven;29;Southampton;Sobrevivió
+259;1;1;Ward Miss. Anna;Female;35;0;0;PC 17755;512;Desconocido;C;Miss;Ward;False;Desconocido;1;True;Adulto;171;Cherburgo;Sobrevivió
+260;1;2;Parrish Mrs. (Lutie Davis);Female;50;0;1;230433;26;Desconocido;S;Mrs;Parrish;False;Desconocido;2;False;Adulto;13;Southampton;Sobrevivió
+261;0;3;Smith Mr. Thomas;Male;30;0;0;384461;8;Desconocido;Q;Mr;Smith;True;Desconocido;1;True;Adulto joven;8;Queenstown;Falleció
+262;1;3;Asplund Master. Edvin Rojj Felix;Male;3;4;2;347077;31;Desconocido;S;Master;Asplund;False;Desconocido;7;False;Niño;8;Southampton;Sobrevivió
+263;0;1;Taussig Mr. Emil;Male;52;1;1;110413;80;E67;S;Mr;Taussig;False;E;3;False;Adulto;27;Southampton;Falleció
+264;0;1;Harrison Mr. William;Male;40;0;0;112059;0;B94;S;Mr;Harrison;False;B;1;True;Adulto;0;Southampton;Falleció
+265;0;3;Henry Miss. Delia;Female;21;0;0;382649;8;Desconocido;Q;Miss;Henry;True;Desconocido;1;True;Adulto joven;8;Queenstown;Falleció
+266;0;2;Reeves Mr. David;Male;36;0;0;C.A. 17248;10;Desconocido;S;Mr;Reeves;False;Desconocido;1;True;Adulto;10;Southampton;Falleció
+267;0;3;Panula Mr. Ernesti Arvid;Male;16;4;1;3101295;40;Desconocido;S;Mr;Panula;False;Desconocido;6;False;Adolescente;7;Southampton;Falleció
+268;1;3;Persson Mr. Ernst Ulrik;Male;25;1;0;347083;8;Desconocido;S;Mr;Persson;False;Desconocido;2;False;Adulto joven;8;Southampton;Sobrevivió
+269;1;1;Graham Mrs. William Thompson (Edith Junkins);Female;58;0;1;PC 17582;153;C125;S;Mrs;Graham;False;C;2;False;Adulto;51;Southampton;Sobrevivió
+270;1;1;Bissette Miss. Amelia;Female;35;0;0;PC 17760;136;C99;S;Miss;Bissette;False;C;1;True;Adulto;45;Southampton;Sobrevivió
+271;0;1;Cairns Mr. Alexander;Male;30;0;0;113798;31;Desconocido;S;Mr;Cairns;True;Desconocido;1;True;Adulto joven;16;Southampton;Falleció
+272;1;3;Tornquist Mr. William Henry;Male;25;0;0;LINE;0;Desconocido;S;Mr;Tornquist;False;Desconocido;1;True;Adulto joven;0;Southampton;Sobrevivió
+273;1;2;Mellinger Mrs. (Elizabeth Anne Maidment);Female;41;0;1;250644;20;Desconocido;S;Mrs;Mellinger;False;Desconocido;2;False;Adulto;10;Southampton;Sobrevivió
+274;0;1;Natsch Mr. Charles H;Male;37;0;1;PC 17596;30;C118;C;Mr;Natsch;False;C;2;False;Adulto;30;Cherburgo;Falleció
+275;1;3;Healy Miss. Hanora Nora;Female;21;0;0;370375;8;Desconocido;Q;Miss;Healy;True;Desconocido;1;True;Adulto joven;8;Queenstown;Sobrevivió
+276;1;1;Andrews Miss. Kornelia Theodosia;Female;63;1;0;13502;78;D7;S;Miss;Andrews;False;D;2;False;Mayor;26;Southampton;Sobrevivió
+277;0;3;Lindblom Miss. Augusta Charlotta;Female;45;0;0;347073;8;Desconocido;S;Miss;Lindblom;False;Desconocido;1;True;Adulto;8;Southampton;Falleció
+278;0;2;Parkes Mr. Francis Frank;Male;30;0;0;239853;0;Desconocido;S;Mr;Parkes;True;Desconocido;1;True;Adulto joven;0;Southampton;Falleció
+279;0;3;Rice Master. Eric;Male;7;4;1;382652;29;Desconocido;Q;Master;Rice;False;Desconocido;6;False;Niño;7;Queenstown;Falleció
+280;1;3;Abbott Mrs. Stanton (Rosa Hunt);Female;35;1;1;C.A. 2673;20;Desconocido;S;Mrs;Abbott;False;Desconocido;3;False;Adulto;10;Southampton;Sobrevivió
+281;0;3;Duane Mr. Frank;Male;65;0;0;336439;8;Desconocido;Q;Mr;Duane;False;Desconocido;1;True;Mayor;8;Queenstown;Falleció
+282;0;3;Olsson Mr. Nils Johan Goransson;Male;28;0;0;347464;8;Desconocido;S;Mr;Olsson;False;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+283;0;3;de Pelsmaeker Mr. Alfons;Male;16;0;0;345778;10;Desconocido;S;Mr;de Pelsmaeker;False;Desconocido;1;True;Adolescente;10;Southampton;Falleció
+284;1;3;Dorking Mr. Edward Arthur;Male;19;0;0;A/5 10482;8;Desconocido;S;Mr;Dorking;False;Desconocido;1;True;Adulto joven;8;Southampton;Sobrevivió
+285;0;1;Smith Mr. Richard William;Male;30;0;0;113056;26;A19;S;Mr;Smith;True;A;1;True;Adulto joven;26;Southampton;Falleció
+286;0;3;Stankovic Mr. Ivan;Male;33;0;0;349239;9;Desconocido;C;Mr;Stankovic;False;Desconocido;1;True;Adulto joven;9;Cherburgo;Falleció
+287;1;3;de Mulder Mr. Theodore;Male;30;0;0;345774;10;Desconocido;S;Mr;de Mulder;False;Desconocido;1;True;Adulto joven;10;Southampton;Sobrevivió
+288;0;3;Naidenoff Mr. Penko;Male;22;0;0;349206;8;Desconocido;S;Mr;Naidenoff;False;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+289;1;2;Hosono Mr. Masabumi;Male;42;0;0;237798;13;Desconocido;S;Mr;Hosono;False;Desconocido;1;True;Adulto;13;Southampton;Sobrevivió
+290;1;3;Connolly Miss. Kate;Female;22;0;0;370373;8;Desconocido;Q;Miss;Connolly;False;Desconocido;1;True;Adulto joven;8;Queenstown;Sobrevivió
+291;1;1;Barber Miss. Ellen Nellie;Female;26;0;0;19877;79;Desconocido;S;Miss;Barber;False;Desconocido;1;True;Adulto joven;39;Southampton;Sobrevivió
+292;1;1;Bishop Mrs. Dickinson H (Helen Walton);Female;19;1;0;11967;91;B49;C;Mrs;Bishop;False;B;2;False;Adulto joven;46;Cherburgo;Sobrevivió
+293;0;2;Levy Mr. Rene Jacques;Male;36;0;0;SC/PARIS 2163;13;D;C;Mr;Levy;False;D;1;True;Adulto;13;Cherburgo;Falleció
+294;0;3;Haas Miss. Aloisia;Female;24;0;0;349236;9;Desconocido;S;Miss;Haas;False;Desconocido;1;True;Adulto joven;9;Southampton;Falleció
+295;0;3;Mineff Mr. Ivan;Male;24;0;0;349233;8;Desconocido;S;Mr;Mineff;False;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+296;0;1;Lwey Mr. Urvin G;Male;30;0;0;PC 6712;277;Desconocido;C;Mr;Lwey;True;Desconocido;1;True;Adulto joven;277;Cherburgo;Falleció
+297;0;3;Hannna Mr. Mansour;Male;24;0;0;2693;7;Desconocido;C;Mr;Hannna;False;Desconocido;1;True;Adulto joven;7;Cherburgo;Falleció
+298;0;1;Allison Miss. Helen Loraine;Female;2;1;2;113781;152;C22 C26;S;Miss;Allison;False;C;4;False;Niño;38;Southampton;Falleció
+299;1;1;Saalfeld Mr. Adolphe;Male;30;0;0;19988;30;C106;S;Mr;Saalfeld;True;C;1;True;Adulto joven;30;Southampton;Sobrevivió
+300;1;1;Baxter Mrs. James (Helene DeLaudeniere Chaput);Female;50;0;1;PC 17558;248;B58 B60;C;Mrs;Baxter;False;B;2;False;Adulto;124;Cherburgo;Sobrevivió
+301;1;3;Kelly Miss. Anna Katherine Annie Kate;Female;21;0;0;9234;8;Desconocido;Q;Miss;Kelly;True;Desconocido;1;True;Adulto joven;8;Queenstown;Sobrevivió
+302;1;3;McCoy Mr. Bernard;Male;30;2;0;367226;23;Desconocido;Q;Mr;McCoy;True;Desconocido;3;False;Adulto joven;12;Queenstown;Sobrevivió
+303;0;3;johnson Mr. William Cahoone Jr;Male;19;0;0;LINN E;0;Desconocido;S;Mr;johnson;False;Desconocido;1;True;Adulto joven;0;Southampton;Falleció
+304;1;2;Keane Miss. Nora A;Female;21;0;0;226593;12;E101;Q;Miss;Keane;True;E;1;True;Adulto joven;12;Queenstown;Sobrevivió
+305;0;3;Williams Mr. Howard Hugh Harry;Male;30;0;0;A/5 2466;8;Desconocido;S;Mr;Williams;True;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+306;1;1;Allison Master. Hudson Trevor;Male;1;1;2;113781;152;C22 C26;S;Master;Allison;False;C;4;False;Niño;38;Southampton;Sobrevivió
+307;1;1;Fleming Miss. Margaret;Female;21;0;0;17421;111;Desconocido;C;Miss;Fleming;True;Desconocido;1;True;Adulto joven;28;Cherburgo;Sobrevivió
+308;1;1;penascco y Castellana Msr. Victor de Satode (Maria Josefa Perz de Soto y Vallejo);Female;17;1;0;P 17758;109;C65;C;Mr;penascco y Castellana;False;C;2;False;Adolescente;109;Cherburgo;Sobrevivió
+309;0;2;Abelson Mr. Samuel;Male;30;1;0;P/PP 3381;24;Desconocido;C;Mr;Abelson;False;Desconocido;2;False;Adulto joven;12;Cherburgo;Falleció
+310;1;1;francatelli Miss. Laura Mabel;Female;30;0;0;PC 17485;57;O36;C;Miss;francatelli;False;O;1;True;Adulto joven;28;Cherburgo;Sobrevivió
+311;1;1;Hays Miss. Margaret Bechstein;Female;24;0;0;11767;83;C54;C;Miss;Hays;False;C;1;True;Adulto joven;42;Cherburgo;Sobrevivió
+312;1;1;Ryerson Miss. Emily Borie;Female;18;2;2;PC 17608;262;B57 B59 B63 B66;C;Miss;Ryerson;False;B;5;False;Adulto joven;131;Cherburgo;Sobrevivió
+313;0;2;Lahtinen Mrs. William (Anna Sylfven);Female;26;1;1;250651;26;Desconocido;S;Mrs;Lahtinen;False;Desconocido;3;False;Adulto joven;26;Southampton;Falleció
+314;0;3;Hendekovic Mr. Ignjac;Male;28;0;0;349243;8;Desconocido;S;Mr;Hendekovic;False;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+315;0;2;Hart Mr. Benjamin;Male;43;1;1;F.C.C. 13529;26;Desconocido;S;Mr;Hart;False;Desconocido;3;False;Adulto;9;Southampton;Falleció
+316;1;3;Nilsson Miss. Helmina Josefina;Female;26;0;0;347470;8;Desconocido;S;Miss;Nilsson;False;Desconocido;1;True;Adulto joven;8;Southampton;Sobrevivió
+317;1;2;Kantor Mrs. Sinai (Miriam Sternin);Female;24;1;0;244367;26;Desconocido;S;Mrs;Kantor;False;Desconocido;2;False;Adulto joven;13;Southampton;Sobrevivió
+318;0;2;Moraweck Dr. Ernest;Male;54;0;0;29011;14;Desconocido;S;Dr;Moraweck;False;Desconocido;1;True;Adulto;14;Southampton;Falleció
+319;1;1;Wick Miss. Mary Natalie;Female;31;0;2;36928;165;C7;S;Miss;Wick;False;C;3;False;Adulto joven;82;Southampton;Sobrevivió
+320;1;1;Spedden Mrs. Frederic Oakley (Margaretta Corning Stone);Female;40;1;1;16966;134;E34;C;Mrs;Spedden;False;E;3;False;Adulto;67;Cherburgo;Sobrevivió
+321;0;3;Dennis Mr. Samuel;Male;22;0;0;A/5 21172;7;Desconocido;S;Mr;Dennis;False;Desconocido;1;True;Adulto joven;7;Southampton;Falleció
+322;0;3;Danoff Mr. Yoto;Male;27;0;0;349219;8;Desconocido;S;Mr;Danoff;False;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+323;1;2;Slayter Miss. Hilda Mary;Female;30;0;0;234818;12;Desconocido;Q;Miss;Slayter;False;Desconocido;1;True;Adulto joven;12;Queenstown;Sobrevivió
+324;1;2;Caldwell Mrs. Albert Francis (Sylvia Mae Harbaugh);Female;22;1;1;248738;29;Desconocido;S;Mrs;Caldwell;False;Desconocido;3;False;Adulto joven;14;Southampton;Sobrevivió
+325;0;3;Sage Mr. George John Jr;Male;30;8;2;C.A. 2343;70;Desconocido;S;Mr;Sage;True;Desconocido;11;False;Adulto joven;10;Southampton;Falleció
+326;1;1;Young Miss. Marie Grice;Female;36;0;0;PC 17760;136;C32;C;Miss;Young;False;C;1;True;Adulto;45;Cherburgo;Sobrevivió
+327;0;3;Nysveen Mr. Johan Hansen;Male;61;0;0;345364;62;Desconocido;S;Mr;Nysveen;False;Desconocido;1;True;Mayor;62;Southampton;Falleció
+328;1;2;Ball Mrs. (Ada E Hall);Female;36;0;0;28551;13;D;S;Mrs;Ball;False;D;1;True;Adulto;13;Southampton;Sobrevivió
+329;1;3;Goldsmith Mrs. Frank John (Emily Alice Brown);Female;31;1;1;363291;21;Desconocido;S;Mrs;Goldsmith;False;Desconocido;3;False;Adulto joven;7;Southampton;Sobrevivió
+330;1;1;Hippach Miss. Jean Gertrude;Female;16;0;1;111361;58;B18;C;Miss;Hippach;False;B;2;False;Adolescente;29;Cherburgo;Sobrevivió
+331;1;3;McCoy Miss. Agnes;Female;21;2;0;367226;23;Desconocido;Q;Miss;McCoy;True;Desconocido;3;False;Adulto joven;12;Queenstown;Sobrevivió
+332;0;1;Partner Mr. Austen;Male;46;0;0;113043;28;C124;S;Mr;Partner;False;C;1;True;Adulto;28;Southampton;Falleció
+333;0;1;Graham Mr. George Edward;Male;38;0;1;PC 17582;153;C91;S;Mr;Graham;False;C;2;False;Adulto;51;Southampton;Falleció
+334;0;3;Vander Planke Mr. Leo Edmondus;Male;16;2;0;345764;18;Desconocido;S;Mr;Vander Planke;False;Desconocido;3;False;Adolescente;9;Southampton;Falleció
+334;0;2;Weado Mr. Edward H;Male;66;0;0;C.A. 24579;10;Desconocido;S;Mr;Weado;False;Desconocido;1;True;Mayor;5;Southampton;Falleció
+334;0;3;vander Plunke Mr. Leo Udmondus;Male;16;0;0;3 45764;18;Desconocido;S;Mr;vander Plunke;False;Desconocido;1;True;Adolescente;18;Southampton;Falleció
+335;1;1;Frauenthal Mrs. Henry William (Clara Heinsheimer);Female;35;1;0;PC 17611;134;Desconocido;S;Mrs;Frauenthal;True;Desconocido;2;False;Adulto;67;Southampton;Sobrevivió
+336;0;3;Denkoff Mr. Mitto;Male;30;0;0;349225;8;Desconocido;S;Mr;Denkoff;True;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+337;0;1;Pears Mr. Thomas Clinton;Male;29;1;0;113776;67;C2;S;Mr;Pears;False;C;2;False;Adulto joven;33;Southampton;Falleció
+338;1;1;Burns Miss. Elizabeth Margaret;Female;41;0;0;16966;134;E40;C;Miss;Burns;False;E;1;True;Adulto;67;Cherburgo;Sobrevivió
+339;1;3;Dahl Mr. Karl Edwart;Male;45;0;0;7598;8;Desconocido;S;Mr;Dahl;False;Desconocido;1;True;Adulto;8;Southampton;Sobrevivió
+340;0;1;Blackwell Mr. Stephen Weart;Male;45;0;0;113784;36;T;S;Mr;Blackwell;False;T;1;True;Adulto;36;Southampton;Falleció
+341;1;2;Navratil Master. Edmond Roger;Male;2;1;1;230080;26;F2;S;Master;Navratil;False;F;3;False;Niño;9;Southampton;Sobrevivió
+342;1;1;Fortune Miss. Alice Elizabeth;Female;24;3;2;19950;263;C23 C25 C27;S;Miss;Fortune;False;C;6;False;Adulto joven;66;Southampton;Sobrevivió
+343;0;2;Collander Mr. Erik Gustaf;Male;28;0;0;248740;13;Desconocido;S;Mr;Collander;False;Desconocido;1;True;Adulto joven;13;Southampton;Falleció
+344;0;2;Sedgwick Mr. Charles Frederick Waddington;Male;25;0;0;2444361;12;Desconocido;S;Mr;Sedgwick;False;Desconocido;1;True;Adulto joven;12;Southampton;Falleció
+345;0;2;Fox Mr. Stanley Hubert;Male;36;0;0;229236;13;Desconocido;S;Mr;Fox;False;Desconocido;1;True;Adulto;13;Southampton;Falleció
+346;1;2;Brown Miss. Amelia Mildred;Female;24;0;0;248733;13;F33;S;Miss;Brown;False;F;1;True;Adulto joven;13;Southampton;Sobrevivió
+347;1;2;Smith Miss. Marion Elsie;Female;40;0;0;31418;13;Desconocido;S;Miss;Smith;False;Desconocido;1;True;Adulto;13;Southampton;Sobrevivió
+348;1;3;Davison Mrs. Thomas Henry (Mary E Finck);Female;35;1;0;386525;16;Desconocido;S;Mrs;Davison;True;Desconocido;2;False;Adulto;16;Southampton;Sobrevivió
+349;1;3;Coutts Master. William Looch William;Male;3;1;1;C.A. 37671;16;Desconocido;S;Master;Coutts;False;Desconocido;3;False;Niño;8;Southampton;Sobrevivió
+350;0;3;Dimic Mr. Jovan;Male;42;0;0;315088;9;Desconocido;S;Mr;Dimic;False;Desconocido;1;True;Adulto;9;Southampton;Falleció
+351;0;3;Odahl Mr. Nils Martin;Male;23;0;0;7267;9;Desconocido;S;Mr;Odahl;False;Desconocido;1;True;Adulto joven;9;Southampton;Falleció
+352;0;1;Williams-Lambert Mr. Fletcher Fellows;Male;30;0;0;113510;35;C128;S;Mr;Williams-Lambert;True;C;1;True;Adulto joven;35;Southampton;Falleció
+353;0;3;Elias Mr. Tannous;Male;15;1;1;2695;7;Desconocido;C;Mr;Elias;False;Desconocido;3;False;Adolescente;7;Cherburgo;Falleció
+354;0;3;Arnold-Franchi Mr. Josef;Male;25;1;0;349237;18;Desconocido;S;Mr;Arnold-Franchi;False;Desconocido;2;False;Adulto joven;9;Southampton;Falleció
+355;0;3;Yousif Mr. Wazli;Male;30;0;0;2647;7;Desconocido;C;Mr;Yousif;True;Desconocido;1;True;Adulto joven;7;Cherburgo;Falleció
+356;0;3;Vanden Steen Mr. Leo Peter;Male;28;0;0;345783;10;Desconocido;S;Mr;Vanden Steen;False;Desconocido;1;True;Adulto joven;10;Southampton;Falleció
+357;1;1;Bowerman Miss. Elsie Edith;Female;22;0;1;113505;55;E33;S;Miss;Bowerman;False;E;2;False;Adulto joven;28;Southampton;Sobrevivió
+358;0;2;Funk Miss. Annie Clemmer;Female;38;0;0;237671;13;Desconocido;S;Miss;Funk;False;Desconocido;1;True;Adulto;13;Southampton;Falleció
+359;1;3;McGovern Miss. Mary;Female;21;0;0;330931;8;Desconocido;Q;Miss;McGovern;True;Desconocido;1;True;Adulto joven;8;Queenstown;Sobrevivió
+360;1;3;Mockler Miss. Helen Mary Ellie;Female;21;0;0;330980;8;Desconocido;Q;Miss;Mockler;True;Desconocido;1;True;Adulto joven;8;Queenstown;Sobrevivió
+361;0;3;Skoog Mr. Wilhelm;Male;40;1;4;347088;28;Desconocido;S;Mr;Skoog;False;Desconocido;6;False;Adulto;5;Southampton;Falleció
+362;0;2;del Carlo Mr. Sebastiano;Male;29;1;0;SC/PARIS 2167;28;Desconocido;C;Mr;del Carlo;False;Desconocido;2;False;Adulto joven;28;Cherburgo;Falleció
+363;0;3;Barbara Mrs. (Catherine David);Female;45;0;1;2691;14;Desconocido;C;Mrs;Barbara;False;Desconocido;2;False;Adulto;7;Cherburgo;Falleció
+364;0;3;Asim Mr. Adola;Male;35;0;0;SOTON/O.Q. 3101310;7;Desconocido;S;Mr;Asim;False;Desconocido;1;True;Adulto;7;Southampton;Falleció
+365;0;3;O'Brien Mr. Thomas;Male;30;1;0;370365;16;Desconocido;Q;Mr;O'Brien;True;Desconocido;2;False;Adulto joven;8;Queenstown;Falleció
+366;0;3;Adahl Mr. Mauritz Nils Martin;Male;30;0;0;C 7076;7;Desconocido;S;Mr;Adahl;False;Desconocido;1;True;Adulto joven;7;Southampton;Falleció
+367;1;1;aWrren Mrs. Frank Manley (Anna Sophia Atkinson);Female;51;1;0;110813;75;D37;C;Mrs;aWrren;False;D;2;False;Adulto;75;Cherburgo;Sobrevivió
+368;1;3;Moussa Mrs. (Mantoura Boulos);Female;35;0;0;2626;7;Desconocido;C;Mrs;Moussa;True;Desconocido;1;True;Adulto;7;Cherburgo;Sobrevivió
+369;1;3;Jermyn Miss. Annie;Female;21;0;0;14313;8;Desconocido;Q;Miss;Jermyn;True;Desconocido;1;True;Adulto joven;8;Queenstown;Sobrevivió
+370;1;1;Aubart Mme. Leontine Pauline;Female;24;0;0;PC 17477;69;B35;C;Mrs;Aubart;False;B;1;True;Adulto joven;35;Cherburgo;Sobrevivió
+371;1;1;Harder Mr. George Achilles;Male;25;1;0;11765;55;E50;C;Mr;Harder;False;E;2;False;Adulto joven;55;Cherburgo;Sobrevivió
+372;0;3;Wiklund Mr. Jakob Alfred;Male;18;1;0;3101267;65;Desconocido;S;Mr;Wiklund;False;Desconocido;2;False;Adulto joven;65;Southampton;Falleció
+373;0;3;Beavan Mr. William Thomas;Male;19;0;0;323951;8;Desconocido;S;Mr;Beavan;False;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+374;0;1;Ringhini Mr. Sante;Male;22;0;0;PC 17760;136;Desconocido;C;Mr;Ringhini;False;Desconocido;1;True;Adulto joven;45;Cherburgo;Falleció
+375;0;3;Palsson Miss. Stina Viola;Female;3;3;1;349909;21;Desconocido;S;Miss;Palsson;False;Desconocido;5;False;Niño;5;Southampton;Falleció
+376;1;1;Meyer Mrs. Edgar Joseph (Leila Saks);Female;35;1;0;PC 17604;82;Desconocido;C;Mrs;Meyer;True;Desconocido;2;False;Adulto;41;Cherburgo;Sobrevivió
+377;1;3;Landergren Miss. Aurora Adelia;Female;22;0;0;C 7077;7;Desconocido;S;Miss;Landergren;False;Desconocido;1;True;Adulto joven;7;Southampton;Sobrevivió
+378;0;1;Widener Mr. Harry Elkins;Male;27;0;2;113503;212;C82;C;Mr;Widener;False;C;3;False;Adulto joven;212;Cherburgo;Falleció
+379;0;3;Betros Mr. Tannous;Male;20;0;0;2648;40;Desconocido;C;Mr;Betros;False;Desconocido;1;True;Adulto joven;40;Cherburgo;Falleció
+380;0;3;Gustafsson Mr. Karl Gideon;Male;19;0;0;347069;8;Desconocido;S;Mr;Gustafsson;False;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+381;1;1;Bidois Miss. Rosalie;Female;42;0;0;PC 17757;228;Desconocido;C;Miss;Bidois;False;Desconocido;1;True;Adulto;57;Cherburgo;Sobrevivió
+382;1;3;Nakid Miss. Maria (Mary);Female;1;0;2;2653;16;Desconocido;C;Miss;Nakid;False;Desconocido;3;False;Niño;8;Cherburgo;Sobrevivió
+383;0;3;Tikkanen Mr. Juho;Male;32;0;0;STON/O2. 3101293;8;Desconocido;S;Mr;Tikkanen;False;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+384;1;1;Holverson Mrs. Alexander Oskar (Mary Aline Towner);Female;35;1;0;113789;52;Desconocido;S;Mrs;Holverson;False;Desconocido;2;False;Adulto;26;Southampton;Sobrevivió
+385;0;3;Plotcharsky Mr. Vasil;Male;30;0;0;349227;8;Desconocido;S;Mr;Plotcharsky;True;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+386;0;2;Davies Mr. Charles Henry;Male;18;0;0;S.O.C. 14879;74;Desconocido;S;Mr;Davies;False;Desconocido;1;True;Adulto joven;15;Southampton;Falleció
+387;0;3;Goodwin Master. Sidney Leonard;Male;1;5;2;C.A. 2144;47;Desconocido;S;Master;Goodwin;False;Desconocido;8;False;Niño;8;Southampton;Falleció
+388;1;2;Buss Miss. Kate;Female;36;0;0;27849;13;Desconocido;S;Miss;Buss;False;Desconocido;1;True;Adulto;13;Southampton;Sobrevivió
+389;0;3;Sadlier Mr. Matthew;Male;30;0;0;367655;8;Desconocido;Q;Mr;Sadlier;True;Desconocido;1;True;Adulto joven;8;Queenstown;Falleció
+390;1;2;Lehmann Miss. Bertha;Female;17;0;0;SC 1748;12;Desconocido;C;Miss;Lehmann;False;Desconocido;1;True;Adolescente;12;Cherburgo;Sobrevivió
+391;1;1;Carter Mr. William Ernest;Male;36;1;2;113760;120;B96 B98;S;Mr;Carter;False;B;4;False;Adulto;30;Southampton;Sobrevivió
+392;1;3;Jansson Mr. Carl Olof;Male;21;0;0;350034;8;Desconocido;S;Mr;Jansson;False;Desconocido;1;True;Adulto joven;8;Southampton;Sobrevivió
+393;0;3;Gustafsson Mr. Johan Birger;Male;28;2;0;3101277;8;Desconocido;S;Mr;Gustafsson;False;Desconocido;3;False;Adulto joven;8;Southampton;Falleció
+394;1;1;Newell Miss. Marjorie;Female;23;1;0;35273;113;D36;C;Miss;Newell;False;D;2;False;Adulto joven;38;Cherburgo;Sobrevivió
+395;1;3;Sandstrom Mrs. Hjalmar (Agnes Charlotta Bengtsson);Female;24;0;2;P.P. 9549;17;G6;S;Mrs;Sandstrom;False;G;3;False;Adulto joven;8;Southampton;Sobrevivió
+396;0;3;Johansson Mr. Erik;Male;22;0;0;350052;8;Desconocido;S;Mr;Johansson;False;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+397;0;3;Olsson Miss. Elina;Female;31;0;0;350407;8;Desconocido;S;Miss;Olsson;False;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+398;0;2;McKane Mr. Peter David;Male;46;0;0;28403;26;Desconocido;S;Mr;McKane;False;Desconocido;1;True;Adulto;13;Southampton;Falleció
+399;0;2;Pain Dr. Alfred;Male;23;0;0;244278;10;Desconocido;S;Dr;Pain;False;Desconocido;1;True;Adulto joven;10;Southampton;Falleció
+400;1;2;Trout Mrs. William H (Jassie L);Female;28;0;0;240929;13;Desconocido;S;Mrs;Trout;False;Desconocido;1;True;Adulto joven;13;Southampton;Sobrevivió
+401;1;3;Niskanen Mr. Juha;Male;39;0;0;STON/O2. 3101289;8;Desconocido;S;Mr;Niskanen;False;Desconocido;1;True;Adulto;8;Southampton;Sobrevivió
+402;0;3;Adams Mr. John;Male;26;0;0;341826;8;Desconocido;S;Mr;Adams;False;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+403;0;3;Jussila Miss. Mari Aina;Female;21;1;0;4137;10;Desconocido;S;Miss;Jussila;False;Desconocido;2;False;Adulto joven;10;Southampton;Falleció
+404;0;3;Hakkarainen Mr. Pekka Pietari;Male;28;1;0;STON/O2. 3101279;16;Desconocido;S;Mr;Hakkarainen;False;Desconocido;2;False;Adulto joven;8;Southampton;Falleció
+405;0;3;Oreskovic Miss. Marija;Female;20;0;0;315096;9;Desconocido;S;Miss;Oreskovic;False;Desconocido;1;True;Adulto joven;9;Southampton;Falleció
+406;0;2;Gale Mr. Shadrach;Male;34;1;0;28664;21;Desconocido;S;Mr;Gale;False;Desconocido;2;False;Adulto joven;21;Southampton;Falleció
+407;0;3;Widegren Mr. Carl/Charles Peter;Male;51;0;0;347064;8;Desconocido;S;Mr;Widegren;False;Desconocido;1;True;Adulto;8;Southampton;Falleció
+408;1;2;Richards Master. William Rowe;Male;3;1;1;29106;19;Desconocido;S;Master;Richards;False;Desconocido;3;False;Niño;6;Southampton;Sobrevivió
+409;0;3;Birkeland Mr. Hans Martin Monsen;Male;21;0;0;312992;8;Desconocido;S;Mr;Birkeland;False;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+410;0;3;Lefebre Miss. Ida;Female;21;3;1;4133;25;Desconocido;S;Miss;Lefebre;True;Desconocido;5;False;Adulto joven;6;Southampton;Falleció
+411;0;3;Sdycoff Mr. Todor;Male;30;0;0;349222;8;Desconocido;S;Mr;Sdycoff;True;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+412;0;3;Hart Mr. Henry;Male;30;0;0;394140;69;Desconocido;Q;Mr;Hart;True;Desconocido;1;True;Adulto joven;69;Queenstown;Falleció
+413;1;1;Minahan Miss. Daisy E;Female;33;1;0;19928;90;C78;Q;Miss;Minahan;False;C;2;False;Adulto joven;45;Queenstown;Sobrevivió
+414;0;2;Cunningham Mr. Alfred Fleming;Male;30;0;0;239853;0;Desconocido;S;Mr;Cunningham;True;Desconocido;1;True;Adulto joven;0;Southampton;Falleció
+415;1;3;Sundman Mr. Johan Julian;Male;44;0;0;STON/O2. 3101269;8;Desconocido;S;Mr;Sundman;False;Desconocido;1;True;Adulto;8;Southampton;Sobrevivió
+416;0;3;Meek Mrs. Thomas (Annie Louise Rowley);Female;35;0;0;343095;8;Desconocido;S;Mrs;Meek;True;Desconocido;1;True;Adulto;8;Southampton;Falleció
+417;1;2;Drew Mrs. James Vivian (Lulu Thorne Christian);Female;34;1;1;28220;32;Desconocido;S;Mrs;Drew;False;Desconocido;3;False;Adulto joven;32;Southampton;Sobrevivió
+418;1;2;Silven Miss. Lyyli Karoliina;Female;18;0;2;250652;13;Desconocido;S;Miss;Silven;False;Desconocido;3;False;Adulto joven;13;Southampton;Sobrevivió
+419;0;2;Matthews Mr. William John;Male;30;0;0;28228;13;Desconocido;S;Mr;Matthews;False;Desconocido;1;True;Adulto joven;13;Southampton;Falleció
+420;0;3;Van Impe Miss. Catharina;Female;10;0;2;345773;24;Desconocido;S;Miss;Van Impe;False;Desconocido;3;False;Niño;8;Southampton;Falleció
+421;0;3;Gheorgheff Mr. Stanio;Male;30;0;0;349254;8;Desconocido;C;Mr;Gheorgheff;True;Desconocido;1;True;Adulto joven;8;Cherburgo;Falleció
+422;0;3;Charters Mr. David;Male;21;0;0;A/5 13032;8;Desconocido;Q;Mr;Charters;False;Desconocido;1;True;Adulto joven;8;Queenstown;Falleció
+423;0;3;Zimmerman Mr. Leo;Male;29;0;0;315082;8;Desconocido;S;Mr;Zimmerman;False;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+424;0;3;Danbom Mrs. Ernst Gilbert (Anna Sigrid Maria Brogren);Female;28;1;1;347080;14;Desconocido;S;Mrs;Danbom;False;Desconocido;3;False;Adulto joven;7;Southampton;Falleció
+425;0;3;Rosblom Mr. Viktor Richard;Male;18;1;1;370129;20;Desconocido;S;Mr;Rosblom;False;Desconocido;3;False;Adulto joven;10;Southampton;Falleció
+426;0;3;Wiseman Mr. Phillippe;Male;30;0;0;A/4 34244;7;Desconocido;S;Mr;Wiseman;True;Desconocido;1;True;Adulto joven;7;Southampton;Falleció
+427;1;2;Clarke Mrs. Charles V (Ada Maria Winfield);Female;28;1;0;2003;26;Desconocido;S;Mrs;Clarke;False;Desconocido;2;False;Adulto joven;26;Southampton;Sobrevivió
+428;1;2;Phillips Miss. Kate Florence (Mrs Kate Louise Phillips Marshall);Female;19;0;0;250655;26;Desconocido;S;Miss;Phillips;False;Desconocido;1;True;Adulto joven;13;Southampton;Sobrevivió
+429;0;3;flynn Mr.James;Male;30;0;0;364851;8;Desconocido;Q;Mr;flynn;True;Desconocido;1;True;Adulto joven;8;Queenstown;Falleció
+430;1;3;Pickard Mr. Berk (Berk Trembisky);Male;32;0;0;SOTON/O.Q. 392078;8;E10;S;Mr;Pickard;False;E;1;True;Adulto joven;8;Southampton;Sobrevivió
+431;1;1;Bjornstrom-Steffansson Mr. Mauritz Hakan;Male;28;0;0;110564;27;C52;S;Mr;Bjornstrom-Steffansson;False;C;1;True;Adulto joven;27;Southampton;Sobrevivió
+432;1;3;Thorneycroft Mrs. Percival (Florence Kate White);Female;35;1;0;376564;16;Desconocido;S;Mrs;Thorneycroft;True;Desconocido;2;False;Adulto;8;Southampton;Sobrevivió
+433;1;2;Louch Mrs. Charles Alexander (Alice Adelaide Slow);Female;42;1;0;SC/AH 3085;26;Desconocido;S;Mrs;Louch;False;Desconocido;2;False;Adulto;26;Southampton;Sobrevivió
+434;0;3;Kallio Mr. Nikolai Erland;Male;17;0;0;STON/O2. 3101274;7;Desconocido;S;Mr;Kallio;False;Desconocido;1;True;Adolescente;7;Southampton;Falleció
+435;0;1;Silvey Mr. William Baird;Male;50;1;0;13507;56;E44;S;Mr;Silvey;False;E;2;False;Adulto;28;Southampton;Falleció
+436;1;1;Carter Miss. Lucile Polk;Female;14;1;2;113760;120;B96 B98;S;Miss;Carter;False;B;4;False;Adolescente;30;Southampton;Sobrevivió
+437;0;3;Ford Miss. Doolina Margaret Daisy;Female;21;2;2;W./C. 6608;34;Desconocido;S;Miss;Ford;False;Desconocido;5;False;Adulto joven;11;Southampton;Falleció
+438;1;2;Richards Mrs. Sidney (Emily Hocking);Female;24;2;3;29106;19;Desconocido;S;Mrs;Richards;False;Desconocido;6;False;Adulto joven;6;Southampton;Sobrevivió
+439;0;1;Fortune Mr. Mark;Male;64;1;4;19950;263;C23 C25 C27;S;Mr;Fortune;False;C;6;False;Mayor;66;Southampton;Falleció
+440;0;2;Kvillner Mr. Johan Henrik Jhoannesson;Male;31;0;0;C.A. 18 723;9;Desconocido;S;Mr;Kvillner;False;Desconocido;1;True;Adulto joven;9;Southampton;Falleció
+441;1;2;Hart Mrs. Benjamin (Esther Ada Bloomfield);Female;45;1;1;F.C.C. 13529;26;Desconocido;S;Mrs;Hart;False;Desconocido;3;False;Adulto;9;Southampton;Sobrevivió
+442;0;3;Hampe Mr. Leon;Male;20;0;0;345769;10;Desconocido;S;Mr;Hampe;False;Desconocido;1;True;Adulto joven;10;Southampton;Falleció
+443;0;3;Petterson Mr. Johan Emil;Male;25;1;0;347076;8;Desconocido;S;Mr;Petterson;False;Desconocido;2;False;Adulto joven;8;Southampton;Falleció
+444;1;2;Reynaldo Ms. Encarnacio;Female;28;0;0;230434;13;Desconocido;S;Miss;Reynaldo;False;Desconocido;1;True;Adulto joven;13;Southampton;Sobrevivió
+445;1;3;Johannesen-Bratthammer Mr. Bernt;Male;30;0;0;65306;8;Desconocido;S;Mr;Johannesen-Bratthammer;True;Desconocido;1;True;Adulto joven;8;Southampton;Sobrevivió
+446;1;1;Dodge Master. Washington;Male;4;0;2;33638;82;A34;S;Master;Dodge;False;A;3;False;Niño;82;Southampton;Sobrevivió
+447;1;2;Mellinger Miss. Madeleine Violet;Female;13;0;1;250644;20;Desconocido;S;Miss;Mellinger;False;Desconocido;2;False;Adolescente;10;Southampton;Sobrevivió
+448;1;1;Sewar Mr. Frederic Kimber;Male;30;0;0;113794;27;Desconocido;S;Mr;Sewar;True;Desconocido;1;True;Adulto joven;27;Southampton;Sobrevivió
+449;1;3;Baclini Miss. Marie Catherine;Female;5;2;1;2666;19;Desconocido;C;Miss;Baclini;False;Desconocido;4;False;Niño;5;Cherburgo;Sobrevivió
+450;1;1;Peuchen Major. Arthur Godfrey;Male;52;0;0;113786;30;C104;S;Major;Peuchen;False;C;1;True;Adulto;30;Southampton;Sobrevivió
+451;0;2;West Mr. Edwy Arthur;Male;36;1;2;C.A. 34651;28;Desconocido;S;Mr;West;False;Desconocido;4;False;Adulto;9;Southampton;Falleció
+452;0;3;Hagland Mr. Ingvald Olai Olsen;Male;30;1;0;65303;20;Desconocido;S;Mr;Hagland;True;Desconocido;2;False;Adulto joven;20;Southampton;Falleció
+453;0;1;Foreman Mr. Benjamin Laventall;Male;30;0;0;113051;28;C111;C;Mr;Foreman;False;C;1;True;Adulto joven;28;Cherburgo;Falleció
+454;1;1;Goldenberg Mr. Samuel L;Male;49;1;0;17453;89;C92;C;Mr;Goldenberg;False;C;2;False;Adulto;45;Cherburgo;Sobrevivió
+455;0;3;Peduzzi Mr. Joseph;Male;30;0;0;A/5 2817;8;Desconocido;S;Mr;Peduzzi;True;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+456;1;3;Jalsevac Mr. Ivan;Male;29;0;0;349240;8;Desconocido;C;Mr;Jalsevac;False;Desconocido;1;True;Adulto joven;8;Cherburgo;Sobrevivió
+457;0;1;Millet Mr. Francis Davis;Male;65;0;0;13509;27;E38;S;Mr;Millet;False;E;1;True;Mayor;27;Southampton;Falleció
+458;1;1;Kenyon Mrs. Frederick R (Marion);Female;35;1;0;17464;52;D21;S;Mrs;Kenyon;True;D;2;False;Adulto;52;Southampton;Sobrevivió
+459;1;2;Toomey Miss. Ellen;Female;50;0;0;F.C.C. 13531;10;Desconocido;S;Miss;Toomey;False;Desconocido;1;True;Adulto;10;Southampton;Sobrevivió
+460;0;3;O'Connor Mr. Maurice;Male;30;0;0;371060;8;Desconocido;Q;Mr;O'Connor;True;Desconocido;1;True;Adulto joven;8;Queenstown;Falleció
+461;1;1;Anderson Mr. Harry;Male;48;0;0;19952;27;E12;S;Mr;Anderson;False;E;1;True;Adulto;27;Southampton;Sobrevivió
+462;0;3;Morley Mr. William;Male;34;0;0;364506;8;Desconocido;S;Mr;Morley;False;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+463;0;1;Gee Mr. Arthur H;Male;47;0;0;111320;38;E63;S;Mr;Gee;False;E;1;True;Adulto;38;Southampton;Falleció
+464;0;2;Milling Mr. Jacob Christian;Male;48;0;0;234360;13;Desconocido;S;Mr;Milling;False;Desconocido;1;True;Adulto;13;Southampton;Falleció
+465;0;3;Maisner Mr. Simon;Male;30;0;0;A/S 2816;8;Desconocido;S;Mr;Maisner;True;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+466;0;3;Goncalves Mr. Manuel Estanslas;Male;38;0;0;SOTON/O.Q. 3101306;7;Desconocido;S;Mr;Goncalves;False;Desconocido;1;True;Adulto;7;Southampton;Falleció
+467;0;2;Campbell Mr. William;Male;30;0;0;239853;0;Desconocido;S;Mr;Campbell;True;Desconocido;1;True;Adulto joven;0;Southampton;Falleció
+468;0;1;Smart Mr. John Montgomery;Male;56;0;0;113792;27;Desconocido;S;Mr;Smart;False;Desconocido;1;True;Adulto;27;Southampton;Falleció
+469;0;3;Scanlan Mr. James;Male;30;0;0;36209;8;Desconocido;Q;Mr;Scanlan;True;Desconocido;1;True;Adulto joven;8;Queenstown;Falleció
+470;1;3;Baclini Miss. Helene Barbara;Female;1;2;1;2666;19;Desconocido;C;Miss;Baclini;False;Desconocido;4;False;Niño;5;Cherburgo;Sobrevivió
+471;0;3;Keefe Mr. Arthur;Male;30;0;0;323592;7;Desconocido;S;Mr;Keefe;True;Desconocido;1;True;Adulto joven;7;Southampton;Falleció
+472;0;3;Cacic Mr. Luka;Male;38;0;0;315089;9;Desconocido;S;Mr;Cacic;False;Desconocido;1;True;Adulto;9;Southampton;Falleció
+473;1;2;West Mrs. Edwy Arther (Ada Mary Wort)h;Female;33;1;2;C.A. 34651;28;Desconocido;S;Mrs;West;False;Desconocido;4;False;Adulto joven;9;Southampton;Sobrevivió
+474;1;2;Jerwan Mrs. Amin S (Marie Marthe Thuillard);Female;23;0;0;SC/AH BASLE 541;14;D;C;Mrs;Jerwan;False;D;1;True;Adulto joven;14;Cherburgo;Sobrevivió
+475;0;3;Strandberg Miss. Ida Sofia;Female;22;0;0;7553;10;Desconocido;S;Miss;Strandberg;False;Desconocido;1;True;Adulto joven;10;Southampton;Falleció
+476;0;1;Clifford Mr. George Quincy;Male;30;0;0;110465;52;A14;S;Mr;Clifford;True;A;1;True;Adulto joven;26;Southampton;Falleció
+477;0;2;Renouf Mr. Peter Henry;Male;34;1;0;31027;21;Desconocido;S;Mr;Renouf;False;Desconocido;2;False;Adulto joven;10;Southampton;Falleció
+478;0;3;Braund Mr. Lewis Richard;Male;29;1;0;3460;7;Desconocido;S;Mr;Braund;False;Desconocido;2;False;Adulto joven;7;Southampton;Falleció
+479;0;3;Karlsson Mr. Nils August;Male;22;0;0;350060;8;Desconocido;S;Mr;Karlsson;False;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+480;1;3;Hirvonen Miss. Hildur E;Female;2;0;1;3101298;12;Desconocido;S;Miss;Hirvonen;False;Desconocido;2;False;Niño;12;Southampton;Sobrevivió
+481;0;3;Goodwin Master. Harold Victor;Male;9;5;2;C.A. 2144;47;Desconocido;S;Master;Goodwin;False;Desconocido;8;False;Niño;8;Southampton;Falleció
+482;0;2;Frost Mr. Anthony Wood Archie;Male;30;0;0;239854;0;Desconocido;S;Mr;Frost;True;Desconocido;1;True;Adulto joven;0;Southampton;Falleció
+483;0;3;Rouse Mr. Richard Henry;Male;50;0;0;A/5 3594;8;Desconocido;S;Mr;Rouse;False;Desconocido;1;True;Adulto;8;Southampton;Falleció
+484;1;3;Turkula Mrs. (Hedwig);Female;63;0;0;4134;10;Desconocido;S;Mrs;Turkula;False;Desconocido;1;True;Mayor;10;Southampton;Sobrevivió
+485;1;1;Bishop Mr. Dickinson H;Male;25;1;0;11967;91;B49;C;Mr;Bishop;False;B;2;False;Adulto joven;46;Cherburgo;Sobrevivió
+486;0;3;Lefebre Miss. Jeannie;Female;21;3;1;4133;25;Desconocido;S;Miss;Lefebre;True;Desconocido;5;False;Adulto joven;6;Southampton;Falleció
+487;1;1;Hoyt Mrs. Frederick Maxfield (Jane Anne Forby);Female;35;1;0;19943;90;C93;S;Mrs;Hoyt;False;C;2;False;Adulto;45;Southampton;Sobrevivió
+488;0;1;Kent Mr. Edward Austin;Male;58;0;0;11771;30;B37;C;Mr;Kent;False;B;1;True;Adulto;30;Cherburgo;Falleció
+489;0;3;Somerton Mr. Francis William;Male;30;0;0;A/5 18509;8;Desconocido;S;Mr;Somerton;False;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+490;1;3;Coutts Master. Eden Leslie Neville;Male;9;1;1;C.A. 37671;16;Desconocido;S;Master;Coutts;False;Desconocido;3;False;Niño;8;Southampton;Sobrevivió
+491;0;3;Hagland Mr. Konrad Mathias Reiersen;Male;30;1;0;65304;20;Desconocido;S;Mr;Hagland;True;Desconocido;2;False;Adulto joven;20;Southampton;Falleció
+492;0;3;Windelov Mr. Einar;Male;21;0;0;SOTON/O.Q. 3101317;7;Desconocido;S;Mr;Windelov;False;Desconocido;1;True;Adulto joven;7;Southampton;Falleció
+493;0;1;Molson Mr. Harry Markland;Male;55;0;0;113787;30;C30;S;Mr;Molson;False;C;1;True;Adulto;30;Southampton;Falleció
+494;0;1;Artagaveytia M r. Ramon;Male;71;0;0;PCC 7609;422;Desconocido;C;Mr;Artagaveytia M;False;Desconocido;1;True;Mayor;422;Cherburgo;Falleció
+495;0;3;Stanley Mr. Edward Roland;Male;21;0;0;A/4 45380;8;Desconocido;S;Mr;Stanley;False;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+496;0;3;Yousseff Mr. Gerious;Male;30;0;0;2627;14;Desconocido;C;Mr;Yousseff;True;Desconocido;1;True;Adulto joven;7;Cherburgo;Falleció
+497;1;1;Eustis Miss. Elizabeth Mussey;Female;54;1;0;36947;78;D20;C;Miss;Eustis;False;D;2;False;Adulto;39;Cherburgo;Sobrevivió
+498;0;3;Shellard Mr. Frederick William;Male;30;0;0;C.A. 6212;15;Desconocido;S;Mr;Shellard;True;Desconocido;1;True;Adulto joven;15;Southampton;Falleció
+499;0;1;Allison Mrs. Hudson J C (Bessie Waldo Daniels);Female;25;1;2;113781;152;C22 C26;S;Mrs;Allison;False;C;4;False;Adulto joven;38;Southampton;Falleció
+500;0;3;Svensson Mr. Olof;Male;24;0;0;350035;8;Desconocido;S;Mr;Svensson;False;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+501;0;3;Calic Mr. Petar;Male;17;0;0;315086;9;Desconocido;S;Mr;Calic;False;Desconocido;1;True;Adolescente;9;Southampton;Falleció
+502;0;3;Canavan Miss. Mary;Female;21;0;0;364846;8;Desconocido;Q;Miss;Canavan;False;Desconocido;1;True;Adulto joven;8;Queenstown;Falleció
+503;0;3;O'Sullivan Miss. Bridget Mary;Female;21;0;0;330909;8;Desconocido;Q;Miss;O'Sullivan;True;Desconocido;1;True;Adulto joven;8;Queenstown;Falleció
+504;0;3;Laitinen Miss. Kristina Sofia;Female;37;0;0;4135;10;Desconocido;S;Miss;Laitinen;False;Desconocido;1;True;Adulto;10;Southampton;Falleció
+505;1;1;Maioni Miss. Roberta;Female;16;0;0;110152;86;B79;S;Miss;Maioni;False;B;1;True;Adolescente;29;Southampton;Sobrevivió
+506;0;1;Penasco y Castellana Mr. Victor de Satode;Male;18;1;0;PC 17758;109;C65;C;Mr;Penasco y Castellana;False;C;2;False;Adulto joven;109;Cherburgo;Falleció
+507;1;2;Quick Mrs. Frederick Charles (Jane Richards);Female;33;0;2;26360;26;Desconocido;S;Mrs;Quick;False;Desconocido;3;False;Adulto joven;13;Southampton;Sobrevivió
+508;1;1;Bradley Mr. George (George Arthur Brayton);Male;30;0;0;111427;27;Desconocido;S;Mr;Bradley;True;Desconocido;1;True;Adulto joven;27;Southampton;Sobrevivió
+509;0;3;Olsen Mr. Henry Margido;Male;28;0;0;C 4001;23;Desconocido;S;Mr;Olsen;False;Desconocido;1;True;Adulto joven;23;Southampton;Falleció
+510;1;3;Lang Mr. Fang;Male;26;0;0;160;56;Desconocido;S;Mr;Lang;False;Desconocido;1;True;Adulto joven;56;Southampton;Sobrevivió
+511;1;3;Daly Mr. Eugene Patrick;Male;29;0;0;382651;8;Desconocido;Q;Mr;Daly;False;Desconocido;1;True;Adulto joven;8;Queenstown;Sobrevivió
+512;0;3;Webber Mr. James;Male;30;0;0;SOTON/O.Q. 3101316;8;Desconocido;S;Mr;Webber;True;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+513;1;1;McGough Mr. James Robert;Male;36;0;0;PC 17473;263;E25;S;Mr;McGough;False;E;1;True;Adulto;263;Southampton;Sobrevivió
+514;1;1;Rothschuld Mrs. Marin (Elizabeth L. Barrett);Female;54;1;0;PC 1763;59;Desconocido;C;Mrs;Rothschuld;False;Desconocido;2;False;Adulto;59;Cherburgo;Sobrevivió
+515;0;3;Coleff Mr. Satio;Male;24;0;0;349209;7;Desconocido;S;Mr;Coleff;False;Desconocido;1;True;Adulto joven;7;Southampton;Falleció
+516;0;1;Walker Mr. William Anderson;Male;47;0;0;36967;340;D46;S;Mr;Walker;False;D;1;True;Adulto;340;Southampton;Falleció
+517;1;2;Lemore Mrs. (Amelia Milley);Female;29;0;0;C.A. 34260;10;Desconocido;S;Mrs;Lemore;False;Desconocido;1;True;Adulto joven;10;Southampton;Sobrevivió
+518;0;3;Ryan Mr. Patrick;Male;30;0;0;371110;24;Desconocido;Q;Mr;Ryan;True;Desconocido;1;True;Adulto joven;8;Queenstown;Falleció
+519;1;2;Angle Mrs. William A (Florence Mary Agnes Hughes);Female;36;1;0;226875;26;Desconocido;S;Mrs;Angle;False;Desconocido;2;False;Adulto;26;Southampton;Sobrevivió
+520;0;3;Pavlovic Mr. Stefo;Male;32;0;0;349242;8;Desconocido;S;Mr;Pavlovic;False;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+521;1;1;Perreault Miss. Anne;Female;30;0;0;12749;94;B73;S;Miss;Perreault;False;B;1;True;Adulto joven;47;Southampton;Sobrevivió
+522;0;3;Vovk Mr. Janko;Male;22;0;0;349252;8;Desconocido;S;Mr;Vovk;False;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+523;0;3;Lahoud Mr. Sarkis;Male;30;0;0;2624;7;Desconocido;C;Mr;Lahoud;True;Desconocido;1;True;Adulto joven;7;Cherburgo;Falleció
+524;1;1;Hippach Mrs. Louis Albert (Ida Sophia Fischer);Female;44;0;1;111361;58;B18;C;Mrs;Hippach;False;B;2;False;Adulto;29;Cherburgo;Sobrevivió
+525;0;3;Kassem Mr. Fared;Male;30;0;0;2700;7;Desconocido;C;Mr;Kassem;True;Desconocido;1;True;Adulto joven;7;Cherburgo;Falleció
+526;0;3;Farrell Mr. James;Male;40;0;0;367232;8;Desconocido;Q;Mr;Farrell;False;Desconocido;1;True;Adulto;8;Queenstown;Falleció
+527;1;2;Ridsdale Miss. Lucy;Female;50;0;0;W./C. 14258;10;Desconocido;S;Miss;Ridsdale;False;Desconocido;1;True;Adulto;10;Southampton;Sobrevivió
+528;0;1;Farthing Mr. John;Male;30;0;0;PC 17483;222;C95;S;Mr;Farthing;True;C;1;True;Adulto joven;222;Southampton;Falleció
+529;0;3;Salonen Mr. Johan Werner;Male;39;0;0;3101296;8;Desconocido;S;Mr;Salonen;False;Desconocido;1;True;Adulto;8;Southampton;Falleció
+530;0;2;Hocking Mr. Richard George;Male;23;2;1;29104;12;Desconocido;S;Mr;Hocking;False;Desconocido;4;False;Adulto joven;12;Southampton;Falleció
+531;1;2;Quick Miss. Phyllis May;Female;2;1;1;26360;26;Desconocido;S;Miss;Quick;False;Desconocido;3;False;Niño;13;Southampton;Sobrevivió
+532;0;3;Toufik Mr. Nakli;Male;30;0;0;2641;7;Desconocido;C;Mr;Toufik;True;Desconocido;1;True;Adulto joven;7;Cherburgo;Falleció
+533;0;3;Elias Mr. Joseph Jr;Male;17;1;1;2690;7;Desconocido;C;Mr;Elias;False;Desconocido;3;False;Adolescente;7;Cherburgo;Falleció
+534;1;3;Peter Mrs. Catherine (Catherine Rizk);Female;35;0;2;2668;22;Desconocido;C;Mrs;Peter;True;Desconocido;3;False;Adulto;11;Cherburgo;Sobrevivió
+535;0;3;Cacic Miss. Marija;Female;30;0;0;315084;9;Desconocido;S;Miss;Cacic;False;Desconocido;1;True;Adulto joven;9;Southampton;Falleció
+536;1;2;Hart Miss. Eva Miriam;Female;7;0;2;F.C.C. 13529;26;Desconocido;S;Miss;Hart;False;Desconocido;3;False;Niño;9;Southampton;Sobrevivió
+537;0;1;Butt Major. Archibald Willingham;Male;45;0;0;113050;27;B38;S;Major;Butt;False;B;1;True;Adulto;27;Southampton;Falleció
+538;1;1;LeRoy Miss. Bertha;Female;30;0;0;PC 17761;106;Desconocido;C;Miss;LeRoy;False;Desconocido;1;True;Adulto joven;53;Cherburgo;Sobrevivió
+539;0;3;Risien Mr. Samuel Beard;Male;30;0;0;364498;14;Desconocido;S;Mr;Risien;True;Desconocido;1;True;Adulto joven;14;Southampton;Falleció
+540;1;1;Frolicher Miss. Hedwig Margaritha;Female;22;0;2;13568;50;B39;C;Miss;Frolicher;False;B;3;False;Adulto joven;50;Cherburgo;Sobrevivió
+541;1;1;Crosby Miss. Harriet R;Female;36;0;2;WE/P 5735;71;B22;S;Miss;Crosby;False;B;3;False;Adulto;36;Southampton;Sobrevivió
+542;0;3;Andersson Miss. Ingeborg Constanzia;Female;9;4;2;347082;31;Desconocido;S;Miss;Andersson;False;Desconocido;7;False;Niño;4;Southampton;Falleció
+543;0;3;Andersson Miss. Sigrid Elisabeth;Female;11;4;2;347082;31;Desconocido;S;Miss;Andersson;False;Desconocido;7;False;Niño;4;Southampton;Falleció
+544;1;2;Beane Mr. Edward;Male;32;1;0;2908;26;Desconocido;S;Mr;Beane;False;Desconocido;2;False;Adulto joven;13;Southampton;Sobrevivió
+545;0;1;Douglas Mr. Walter Donald;Male;50;1;0;PC 17761;106;C86;C;Mr;Douglas;False;C;2;False;Adulto;53;Cherburgo;Falleció
+546;0;1;Nicholson Mr. Arthur Ernest;Male;64;0;0;693;26;Desconocido;S;Mr;Nicholson;False;Desconocido;1;True;Mayor;26;Southampton;Falleció
+547;1;2;Beane Mrs. Edward (Ethel Clarke);Female;19;1;0;2908;26;Desconocido;S;Mrs;Beane;False;Desconocido;2;False;Adulto joven;13;Southampton;Sobrevivió
+548;1;2;Padro y Manent Mr. Julian;Male;30;0;0;SC/PARIS 2146;14;Desconocido;C;Mr;Padro y Manent;True;Desconocido;1;True;Adulto joven;14;Cherburgo;Sobrevivió
+549;0;3;Goldsmith Mr. Frank John;Male;33;1;1;363291;21;Desconocido;S;Mr;Goldsmith;False;Desconocido;3;False;Adulto joven;7;Southampton;Falleció
+550;1;2;Davies Master. John Morgan Jr;Male;8;1;1;C.A. 33112;37;Desconocido;S;Master;Davies;False;Desconocido;3;False;Niño;18;Southampton;Sobrevivió
+551;1;1;Thayer Mr. John Borland Jr;Male;17;0;2;17421;111;C70;C;Mr;Thayer;False;C;3;False;Adolescente;28;Cherburgo;Sobrevivió
+552;0;2;Sharp Mr. Percival James R;Male;27;0;0;244358;26;Desconocido;S;Mr;Sharp;False;Desconocido;1;True;Adulto joven;26;Southampton;Falleció
+553;0;3;O'Brien Mr. Timothy;Male;30;0;0;330979;8;Desconocido;Q;Mr;O'Brien;True;Desconocido;1;True;Adulto joven;8;Queenstown;Falleció
+554;1;3;Leeni Mr. Fahim (Philip Zenni);Male;22;0;0;2620;7;Desconocido;C;Mr;Leeni;False;Desconocido;1;True;Adulto joven;7;Cherburgo;Sobrevivió
+555;1;3;Ohman Miss. Velin;Female;22;0;0;347085;8;Desconocido;S;Miss;Ohman;False;Desconocido;1;True;Adulto joven;8;Southampton;Sobrevivió
+556;0;1;Wright Mr. George;Male;62;0;0;113807;27;Desconocido;S;Mr;Wright;False;Desconocido;1;True;Mayor;27;Southampton;Falleció
+557;1;1;Duff Gordon Lady. (Lucille Christiana Sutherland) (Mrs Morgan);Female;48;1;0;11755;40;A16;C;Lady;Duff Gordon;False;A;2;False;Adulto;40;Cherburgo;Sobrevivió
+558;0;1;Robbins Mr. Victor;Male;30;0;0;PC 17757;228;Desconocido;C;Mr;Robbins;True;Desconocido;1;True;Adulto joven;57;Cherburgo;Falleció
+559;1;1;Taussig Mrs. Emil (Tillie Mandelbaum);Female;39;1;1;110413;80;E67;S;Mrs;Taussig;False;E;3;False;Adulto;27;Southampton;Sobrevivió
+560;1;3;de Messemaeker Mrs. Guillaume Joseph (Emma);Female;36;1;0;345572;17;Desconocido;S;Mrs;de Messemaeker;False;Desconocido;2;False;Adulto;17;Southampton;Sobrevivió
+561;0;3;Morrow Mr. Thomas Rowan;Male;30;0;0;372622;8;Desconocido;Q;Mr;Morrow;True;Desconocido;1;True;Adulto joven;8;Queenstown;Falleció
+562;0;3;sivic Mr. Hsoein;Male;40;0;0;349251;8;Desconocido;S;Mr;sivic;False;Desconocido;1;True;Adulto;8;Southampton;Falleció
+563;0;2;Norman Mr. Robert Douglas;Male;28;0;0;218629;14;Desconocido;S;Mr;Norman;False;Desconocido;1;True;Adulto joven;14;Southampton;Falleció
+564;0;3;Simmons Mr. John;Male;30;0;0;SOTON/O.Q. 392082;8;Desconocido;S;Mr;Simmons;True;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+565;0;3;Meanwell Miss. (Marion Ogden);Female;21;0;0;SOTON/O.Q. 392087;8;Desconocido;S;Miss;Meanwell;True;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+566;0;3;Davies Mr. Alfred J;Male;24;2;0;A/4 48871;24;Desconocido;S;Mr;Davies;False;Desconocido;3;False;Adulto joven;12;Southampton;Falleció
+567;0;3;Stoytcheff Mr. Ilia;Male;19;0;0;349205;8;Desconocido;S;Mr;Stoytcheff;False;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+568;0;3;Palsson Mrs. Nils (Alma Cornelia Berglund);Female;29;0;4;349909;21;Desconocido;S;Mrs;Palsson;False;Desconocido;5;False;Adulto joven;5;Southampton;Falleció
+569;0;3;Doharr Mr. Tannous;Male;30;0;0;2686;7;Desconocido;C;Mr;Doharr;True;Desconocido;1;True;Adulto joven;7;Cherburgo;Falleció
+570;1;3;Jonsson Mr. Carl;Male;32;0;0;350417;8;Desconocido;S;Mr;Jonsson;False;Desconocido;1;True;Adulto joven;8;Southampton;Sobrevivió
+571;1;2;Harris Mr. George;Male;62;0;0;SW/PP 752;10;Desconocido;S;Mr;Harris;False;Desconocido;1;True;Mayor;10;Southampton;Sobrevivió
+572;1;1;Appleton Mrs. Edward Dale (Charlotte Lamson);Female;53;2;0;11769;51;C101;S;Mrs;Appleton;False;C;3;False;Adulto;51;Southampton;Sobrevivió
+573;1;1;Flynn Mr. John Irwin (Irving);Male;36;0;0;PC 17474;264;E25;S;Mr;Flynn;False;E;1;True;Adulto;264;Southampton;Sobrevivió
+574;1;3;Kelly Miss. Mary;Female;21;0;0;14312;8;Desconocido;Q;Miss;Kelly;True;Desconocido;1;True;Adulto joven;8;Queenstown;Sobrevivió
+575;0;3;Rush Mr. Alfred George John;Male;16;0;0;A/4 20589;8;Desconocido;S;Mr;Rush;False;Desconocido;1;True;Adolescente;8;Southampton;Falleció
+576;0;3;Patchett Mr. George;Male;19;0;0;358585;14;Desconocido;S;Mr;Patchett;False;Desconocido;1;True;Adulto joven;7;Southampton;Falleció
+577;1;2;Garside Miss. Ethel;Female;34;0;0;243880;13;Desconocido;S;Miss;Garside;False;Desconocido;1;True;Adulto joven;13;Southampton;Sobrevivió
+578;1;1;Silvey Mrs. William Baird (Alice Munger);Female;39;1;0;13507;56;E44;S;Mrs;Silvey;False;E;2;False;Adulto;28;Southampton;Sobrevivió
+579;0;3;Caram Mrs. Joseph (Maria Elias);Female;35;1;0;2689;14;Desconocido;C;Mrs;Caram;True;Desconocido;2;False;Adulto;14;Cherburgo;Falleció
+580;1;3;Jussila Mr. Eiriik;Male;32;0;0;STON/O2. 3101286;8;Desconocido;S;Mr;Jussila;False;Desconocido;1;True;Adulto joven;8;Southampton;Sobrevivió
+581;1;2;Christy Miss. Julie Rachel;Female;25;1;1;237789;30;Desconocido;S;Miss;Christy;False;Desconocido;3;False;Adulto joven;30;Southampton;Sobrevivió
+582;1;1;Thayer Mrs. John Borland (Marian Longstreth Morris);Female;39;1;1;17421;111;C68;C;Mrs;Thayer;False;C;3;False;Adulto;28;Cherburgo;Sobrevivió
+583;0;2;Downton Mr. William James;Male;54;0;0;28403;26;Desconocido;S;Mr;Downton;False;Desconocido;1;True;Adulto;13;Southampton;Falleció
+584;0;1;Ross Mr. John Hugo;Male;37;0;0;1 30499;401;A10;C;Mr;Ross;False;A;1;True;Adulto;401;Cherburgo;Falleció
+585;0;3;Paulner Mr. Uscher;Male;30;0;0;3411;9;Desconocido;C;Mr;Paulner;True;Desconocido;1;True;Adulto joven;9;Cherburgo;Falleció
+586;1;1;Taussig Miss. Ruth;Female;18;0;2;110413;80;E68;S;Miss;Taussig;False;E;3;False;Adulto joven;27;Southampton;Sobrevivió
+587;0;2;Jarvis Mr. John Denzil;Male;47;0;0;237565;15;Desconocido;S;Mr;Jarvis;False;Desconocido;1;True;Adulto;15;Southampton;Falleció
+588;1;1;Frolicher-Stehli Mr. Maxmillian;Male;60;1;1;13567;79;B41;C;Mr;Frolicher-Stehli;False;B;3;False;Mayor;79;Cherburgo;Sobrevivió
+589;0;3;Gilinski Mr. Eliezer;Male;22;0;0;14973;8;Desconocido;S;Mr;Gilinski;False;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+590;0;3;urdli Mr. Joseph;Male;30;0;0;A/5 3235;8;Desconocido;S;Mr;urdli;True;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+591;0;3;Rintamaki Mr. Matti;Male;35;0;0;STON/O2. 3101273;7;Desconocido;S;Mr;Rintamaki;False;Desconocido;1;True;Adulto;7;Southampton;Falleció
+592;1;1;Stephenson Mrs. Walter Bertram (Martha Eustis);Female;52;1;0;36947;78;D20;C;Mrs;Stephenson;False;D;2;False;Adulto;39;Cherburgo;Sobrevivió
+593;0;3;Elsbury Mr. William James;Male;47;0;0;A/5 3902;7;Desconocido;S;Mr;Elsbury;False;Desconocido;1;True;Adulto;7;Southampton;Falleció
+594;0;3;Bourke Miss. Mary;Female;21;0;2;364848;8;Desconocido;Q;Miss;Bourke;True;Desconocido;3;False;Adulto joven;8;Queenstown;Falleció
+595;0;2;Chapman Mr. John Henry;Male;37;1;0;SC/AH 29037;26;Desconocido;S;Mr;Chapman;False;Desconocido;2;False;Adulto;26;Southampton;Falleció
+596;0;3;Van Impe Mr. Jean Baptiste;Male;36;1;1;345773;24;Desconocido;S;Mr;Van Impe;False;Desconocido;3;False;Adulto;8;Southampton;Falleció
+597;1;2;Leitch Miss. Jessie Wills;Female;21;0;0;248727;33;Desconocido;S;Miss;Leitch;True;Desconocido;1;True;Adulto joven;11;Southampton;Sobrevivió
+598;0;3;Johnson Mr. Alfred;Male;49;0;0;LINE;0;Desconocido;S;Mr;Johnson;False;Desconocido;1;True;Adulto;0;Southampton;Falleció
+599;0;3;Boulos Mr. Hanna;Male;30;0;0;2664;7;Desconocido;C;Mr;Boulos;True;Desconocido;1;True;Adulto joven;7;Cherburgo;Falleció
+600;1;1;Duff Gordon Sir. Cosmo Edmund (Mr Morgan);Male;49;1;0;PC 17485;57;A20;C;Sir;Duff Gordon;False;A;2;False;Adulto;28;Cherburgo;Sobrevivió
+601;1;2;Jacobsohn Mrs. Sidney Samuel (Amy Frances Christy);Female;24;2;1;243847;27;Desconocido;S;Mrs;Jacobsohn;False;Desconocido;4;False;Adulto joven;14;Southampton;Sobrevivió
+602;0;3;Slabenoff Mr. Petco;Male;30;0;0;349214;8;Desconocido;S;Mr;Slabenoff;True;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+603;0;1;Harrington Mr. Charles H;Male;30;0;0;113796;42;Desconocido;S;Mr;Harrington;True;Desconocido;1;True;Adulto joven;42;Southampton;Falleció
+604;0;3;Torber Mr. Ernst William;Male;44;0;0;364511;8;Desconocido;S;Mr;Torber;False;Desconocido;1;True;Adulto;8;Southampton;Falleció
+605;1;1;Homer Mr. Harry (Mr E Haven);Male;35;0;0;114426;26;Desconocido;C;Mr;Homer;False;Desconocido;1;True;Adulto;26;Cherburgo;Sobrevivió
+606;0;3;Lindell Mr. Edvard Bengtsson;Male;36;1;0;349910;16;Desconocido;S;Mr;Lindell;False;Desconocido;2;False;Adulto;16;Southampton;Falleció
+607;0;3;Karaic Mr. Milan;Male;30;0;0;349246;8;Desconocido;S;Mr;Karaic;False;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+608;1;1;Daniel Mr. Robert Williams;Male;27;0;0;113804;30;Desconocido;S;Mr;Daniel;False;Desconocido;1;True;Adulto joven;30;Southampton;Sobrevivió
+609;1;2;Laroche Mrs. Joseph (Juliette Marie Louise Lafargue);Female;22;1;2;SC/PARIS 2123;42;Desconocido;C;Mrs;Laroche;False;Desconocido;4;False;Adulto joven;14;Cherburgo;Sobrevivió
+610;1;1;Shutes Miss. Elizabeth W;Female;40;0;0;PC 17582;153;C125;S;Miss;Shutes;False;C;1;True;Adulto;51;Southampton;Sobrevivió
+611;0;3;Andersson Mrs. Anders Johan (Alfrida Konstantia Brogren);Female;39;1;5;347082;31;Desconocido;S;Mrs;Andersson;False;Desconocido;7;False;Adulto;4;Southampton;Falleció
+612;0;3;Jardin Mr. Jose Neto;Male;30;0;0;SOTON/O.Q. 3101305;7;Desconocido;S;Mr;Jardin;True;Desconocido;1;True;Adulto joven;7;Southampton;Falleció
+613;1;3;Murphy Miss. Margaret Jane;Female;21;1;0;367230;16;Desconocido;Q;Miss;Murphy;True;Desconocido;2;False;Adulto joven;8;Queenstown;Sobrevivió
+614;0;3;Horgan Mr. John;Male;30;0;0;370377;8;Desconocido;Q;Mr;Horgan;True;Desconocido;1;True;Adulto joven;8;Queenstown;Falleció
+615;0;3;Brocklebank Mr. William Alfred;Male;35;0;0;364512;8;Desconocido;S;Mr;Brocklebank;False;Desconocido;1;True;Adulto;8;Southampton;Falleció
+616;1;2;Herman Miss. Alice;Female;24;1;2;220845;65;Desconocido;S;Miss;Herman;False;Desconocido;4;False;Adulto joven;32;Southampton;Sobrevivió
+617;0;3;Danbom Mr. Ernst Gilbert;Male;34;1;1;347080;14;Desconocido;S;Mr;Danbom;False;Desconocido;3;False;Adulto joven;7;Southampton;Falleció
+618;0;3;Lobb Mrs. William Arthur (Cordelia K Stanlick);Female;26;1;0;A/5 3336;16;Desconocido;S;Mrs;Lobb;False;Desconocido;2;False;Adulto joven;8;Southampton;Falleció
+619;1;2;Becker Miss. Marion Louise;Female;4;2;1;230136;39;F4;S;Miss;Becker;False;F;4;False;Niño;20;Southampton;Sobrevivió
+620;0;2;Gavey Mr. Lawrence;Male;26;0;0;31028;10;Desconocido;S;Mr;Gavey;False;Desconocido;1;True;Adulto joven;10;Southampton;Falleció
+621;0;3;Yasbeck Mr. Antoni;Male;27;1;0;2659;14;Desconocido;C;Mr;Yasbeck;False;Desconocido;2;False;Adulto joven;7;Cherburgo;Falleció
+622;1;1;Kimball Mr. Edwin Nelson Jr;Male;42;1;0;11753;53;D19;S;Mr;Kimball;False;D;2;False;Adulto;53;Southampton;Sobrevivió
+623;1;3;Naikd Mr. Sahd;Male;20;1;1;2653;16;Desconocido;C;Mr;Naikd;False;Desconocido;3;False;Adulto joven;8;Cherburgo;Sobrevivió
+624;0;3;Hansen Mr. Henry Damsgaard;Male;21;0;0;350029;8;Desconocido;S;Mr;Hansen;False;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+625;0;3;Bowen Mr. David John Dai;Male;21;0;0;54636;16;Desconocido;S;Mr;Bowen;False;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+626;0;1;Sutton Mr. Frederick;Male;61;0;0;36963;323;D50;S;Mr;Sutton;False;D;1;True;Mayor;323;Southampton;Falleció
+627;0;2;Kirkland Rev. Charles Leonard;Male;57;0;0;219533 3;12;Desconocido;Q;Rev;Kirkland;False;Desconocido;1;True;Adulto;12;Queenstown;Falleció
+628;1;1;Longley Miss. Gretchen Fiske;Female;21;0;0;13502;78;D9;S;Miss;Longley;False;D;1;True;Adulto joven;26;Southampton;Sobrevivió
+629;0;3;Bostandyeff Mr. Guentcho;Male;26;0;0;349224;8;Desconocido;S;Mr;Bostandyeff;False;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+630;0;3;O'Connell Mr. Putrick D;Male;30;0;0;334912;8;Desconocido;Q;Mr;O'Connell;True;Desconocido;1;True;Adulto joven;8;Queenstown;Falleció
+631;1;1;Barkworth Mr. Algernon Henry Wilson;Male;80;0;0;27042;30;A23;S;Mr;Barkworth;False;A;1;True;Mayor;30;Southampton;Sobrevivió
+632;0;3;Lundahl Mr. Johan Svensson;Male;51;0;0;347743;7;Desconocido;S;Mr;Lundahl;False;Desconocido;1;True;Adulto;7;Southampton;Falleció
+633;1;1;Stahelin-Maeglin Dr. Max;Male;32;0;0;13214;30;B50;C;Dr;Stahelin-Maeglin;False;B;1;True;Adulto joven;30;Cherburgo;Sobrevivió
+634;0;1;Parr Mr. William Henry Marsh;Male;30;0;0;112052;0;Desconocido;S;Mr;Parr;True;Desconocido;1;True;Adulto joven;0;Southampton;Falleció
+635;0;3;Skoog Miss. Mabel;Female;9;3;2;347088;28;Desconocido;S;Miss;Skoog;False;Desconocido;6;False;Niño;5;Southampton;Falleció
+636;1;2;Davis Miss. Mary;Female;28;0;0;237668;13;Desconocido;S;Miss;Davis;False;Desconocido;1;True;Adulto joven;13;Southampton;Sobrevivió
+637;0;3;Leinonen Mr. Antti Gustaf;Male;32;0;0;STON/O2. 3101292;8;Desconocido;S;Mr;Leinonen;False;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+638;0;2;Collyer Mr. Harvey;Male;31;1;1;C.A. 31921;26;Desconocido;S;Mr;Collyer;False;Desconocido;3;False;Adulto joven;9;Southampton;Falleció
+639;0;3;Panula Mrs. Juha (Maria Emilia Ojala);Female;41;0;5;3101295;40;Desconocido;S;Mrs;Panula;False;Desconocido;6;False;Adulto;7;Southampton;Falleció
+640;0;3;Thorneycroft Mr. Percival;Male;30;1;0;376564;16;Desconocido;S;Mr;Thorneycroft;True;Desconocido;2;False;Adulto joven;8;Southampton;Falleció
+641;0;3;Jensen Mr. Hans Peder;Male;20;0;0;350050;8;Desconocido;S;Mr;Jensen;False;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+642;1;1;Sagesser Mlle. Emma;Female;24;0;0;PC 17477;69;B35;C;Miss;Sagesser;False;B;1;True;Adulto joven;35;Cherburgo;Sobrevivió
+643;0;3;Skoog Miss. Margit Elizabeth;Female;2;3;2;347088;28;Desconocido;S;Miss;Skoog;False;Desconocido;6;False;Niño;5;Southampton;Falleció
+644;1;3;Foo Mr. Choong;Male;30;0;0;1601;56;Desconocido;S;Mr;Foo;True;Desconocido;1;True;Adulto joven;9;Southampton;Sobrevivió
+645;1;3;Baclini Miss. Eugenie;Female;1;2;1;2666;19;Desconocido;C;Miss;Baclini;False;Desconocido;4;False;Niño;5;Cherburgo;Sobrevivió
+646;1;1;Harper Mr. Henry Sleeper;Male;48;1;0;PC 17572;77;D33;C;Mr;Harper;False;D;2;False;Adulto;26;Cherburgo;Sobrevivió
+647;0;3;Cor Mr. Liudevit;Male;19;0;0;349231;8;Desconocido;S;Mr;Cor;False;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+648;1;1;Simonius-Blumer Col. Oberst Alfons;Male;56;0;0;13213;36;A26;C;Col;Simonius-Blumer;False;A;1;True;Adulto;36;Cherburgo;Sobrevivió
+649;0;3;Willey Mr. Edward;Male;30;0;0;S.O./P.P. 751;8;Desconocido;S;Mr;Willey;True;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+650;1;3;Stanley Miss. Amy Zillah Elsie;Female;23;0;0;C.A. 2314;8;Desconocido;S;Miss;Stanley;False;Desconocido;1;True;Adulto joven;8;Southampton;Sobrevivió
+651;0;3;Mitkoff Mr. Mito;Male;30;0;0;349221;8;Desconocido;S;Mr;Mitkoff;True;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+652;1;2;Doling Miss. Elsie;Female;18;0;1;231919;23;Desconocido;S;Miss;Doling;False;Desconocido;2;False;Adulto joven;12;Southampton;Sobrevivió
+653;0;3;Kalvik Mr. Johannes Halvorsen;Male;21;0;0;8475;8;Desconocido;S;Mr;Kalvik;False;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+654;1;3;O'Leary Miss. Hanora Norah;Female;21;0;0;330919;8;Desconocido;Q;Miss;O'Leary;True;Desconocido;1;True;Adulto joven;8;Queenstown;Sobrevivió
+655;0;3;Hegarty Miss. Hanora Nora;Female;18;0;0;365226;7;Desconocido;Q;Miss;Hegarty;False;Desconocido;1;True;Adulto joven;7;Queenstown;Falleció
+656;0;2;Hickman Mr. Leonard Mark;Male;24;2;0;S.O.C. 14879;74;Desconocido;S;Mr;Hickman;False;Desconocido;3;False;Adulto joven;15;Southampton;Falleció
+657;0;3;Radeff Mr. Alexander;Male;30;0;0;349223;8;Desconocido;S;Mr;Radeff;True;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+658;0;3;Bourke Mrs. John (Catherine);Female;32;1;1;364849;16;Desconocido;Q;Mrs;Bourke;False;Desconocido;3;False;Adulto joven;8;Queenstown;Falleció
+659;0;2;Eitemiller Mr. George Floyd;Male;23;0;0;29751;13;Desconocido;S;Mr;Eitemiller;False;Desconocido;1;True;Adulto joven;13;Southampton;Falleció
+660;0;1;Newell Mr. Arthur Webster;Male;58;0;2;35273;113;D48;C;Mr;Newell;False;D;3;False;Adulto;38;Cherburgo;Falleció
+661;1;1;Frauenthal Dr. Henry William;Male;50;2;0;PC 17611;134;Desconocido;S;Dr;Frauenthal;False;Desconocido;3;False;Adulto;67;Southampton;Sobrevivió
+662;0;3;Badt Mr. Mohamed;Male;40;0;0;2623;7;Desconocido;C;Mr;Badt;False;Desconocido;1;True;Adulto;7;Cherburgo;Falleció
+663;0;1;Colley Mr. Edward Pomeroy;Male;47;0;0;5727;256;E58;S;Mr;Colley;False;E;1;True;Adulto;256;Southampton;Falleció
+663;0;1;Harris Mr. Henry Brrikhardt;Male;45;1;0;63973;83;C83;S;Mr;Harris;False;C;2;False;Adulto;83;Southampton;Falleció
+664;0;3;Coleff Mr. Peju;Male;36;0;0;349210;7;Desconocido;S;Mr;Coleff;False;Desconocido;1;True;Adulto;7;Southampton;Falleció
+665;1;3;Lindqvist Mr. Eino William;Male;20;1;0;STON/O2. 3101285;8;Desconocido;S;Mr;Lindqvist;False;Desconocido;2;False;Adulto joven;8;Southampton;Sobrevivió
+666;0;2;Hickman Mr. Lewis;Male;32;2;0;S.O.C. 14879;74;Desconocido;S;Mr;Hickman;False;Desconocido;3;False;Adulto joven;15;Southampton;Falleció
+667;0;2;Butler Mr. Reginald Fenton;Male;25;0;0;234686;13;Desconocido;S;Mr;Butler;False;Desconocido;1;True;Adulto joven;13;Southampton;Falleció
+667;1;2;Nye Mrs. (Ellizabeth Ramell);Female;29;1;0;C.A. 29395;10;F33;S;Mrs;Nye;False;F;2;False;Adulto joven;5;Southampton;Sobrevivió
+668;0;3;Rommetvedt Mr. Knud Paust;Male;30;0;0;312993;8;Desconocido;S;Mr;Rommetvedt;True;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+669;0;3;Cook Mr. Jacob;Male;43;0;0;A/5 3536;8;Desconocido;S;Mr;Cook;False;Desconocido;1;True;Adulto;8;Southampton;Falleció
+670;1;1;Taylor Mrs. Elmer Zebley (Juliet Cummins Wright);Female;35;1;0;19996;52;C126;S;Mrs;Taylor;True;C;2;False;Adulto;26;Southampton;Sobrevivió
+671;1;2;Brown Mrs. Thomas William Solomon (Elizabeth Catherine Ford);Female;40;1;1;29750;39;Desconocido;S;Mrs;Brown;False;Desconocido;3;False;Adulto;20;Southampton;Sobrevivió
+672;0;1;Davidson Mr. Thornton;Male;31;1;0;F.C. 12750;52;B71;S;Mr;Davidson;False;B;2;False;Adulto joven;52;Southampton;Falleció
+673;0;2;Mitchell Mr. Henry Michael;Male;70;0;0;C.A. 24580;10;Desconocido;S;Mr;Mitchell;False;Desconocido;1;True;Mayor;10;Southampton;Falleció
+674;1;2;Wilhelms Mr. Charles;Male;31;0;0;244270;13;Desconocido;S;Mr;Wilhelms;False;Desconocido;1;True;Adulto joven;13;Southampton;Sobrevivió
+675;0;2;Watson Mr. Ennis Hastings;Male;30;0;0;239856;0;Desconocido;S;Mr;Watson;True;Desconocido;1;True;Adulto joven;0;Southampton;Falleció
+676;0;3;Edvardsson Mr. Gustaf Hjalmar;Male;18;0;0;349912;8;Desconocido;S;Mr;Edvardsson;False;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+677;0;3;Sawyer Mr. Frederick Charles;Male;24;0;0;342826;8;Desconocido;S;Mr;Sawyer;False;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+678;1;3;Turja Miss. Anna Sofia;Female;18;0;0;4138;10;Desconocido;S;Miss;Turja;False;Desconocido;1;True;Adulto joven;10;Southampton;Sobrevivió
+679;0;3;Goodwin Mrs. Frederick (Augusta Tyler);Female;43;1;6;C.A. 2144;47;Desconocido;S;Mrs;Goodwin;False;Desconocido;8;False;Adulto;8;Southampton;Falleció
+680;1;1;Cardeza Mr. Thomas Drake Martinez;Male;36;0;1;PC 17755;512;B51 B53 B55;C;Mr;Cardeza;False;B;2;False;Adulto;171;Cherburgo;Sobrevivió
+681;0;3;Peters Miss. Katie;Female;21;0;0;330935;8;Desconocido;Q;Miss;Peters;True;Desconocido;1;True;Adulto joven;8;Queenstown;Falleció
+682;1;1;Hassab Mr. Hammad;Male;27;0;0;PC 17572;77;D49;C;Mr;Hassab;False;D;1;True;Adulto joven;26;Cherburgo;Sobrevivió
+683;0;3;Olsvigen Mr. Thor Anderson;Male;20;0;0;6563;9;Desconocido;S;Mr;Olsvigen;False;Desconocido;1;True;Adulto joven;9;Southampton;Falleció
+684;0;3;Goo wdin Mr. Charles Edward;Male;14;4;2;C.A. 2144;47;Desconocido;S;Mr;Goo wdin;False;Desconocido;7;False;Adolescente;8;Southampton;Falleció
+685;0;2;Brown Mr. Thomas William Solomon;Male;60;1;1;29750;39;Desconocido;S;Mr;Brown;False;Desconocido;3;False;Mayor;20;Southampton;Falleció
+686;0;2;Laroche Mr. Joseph Philippe Lemercier;Male;25;1;2;SC/PARIS 2123;42;Desconocido;C;Mr;Laroche;False;Desconocido;4;False;Adulto joven;14;Cherburgo;Falleció
+687;0;3;Panula Mr. Jaako Arnold;Male;14;4;1;3101295;40;Desconocido;S;Mr;Panula;False;Desconocido;6;False;Adolescente;7;Southampton;Falleció
+688;0;3;Dakic Mr. Branko;Male;19;0;0;349228;10;Desconocido;S;Mr;Dakic;False;Desconocido;1;True;Adulto joven;10;Southampton;Falleció
+689;0;3;Fischer Mr. Eberhard Thelander;Male;18;0;0;350036;8;Desconocido;S;Mr;Fischer;False;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+690;1;1;dill Miss. Georgette Alexandra;Female;15;0;1;24160;211;B5;S;Miss;dill;False;B;2;False;Adolescente;70;Southampton;Sobrevivió
+691;1;1;Dick Mr. Albert Adrian;Male;31;1;0;17474;57;B20;S;Mr;Dick;False;B;2;False;Adulto joven;28;Southampton;Sobrevivió
+692;1;3;Karun Miss. Manca;Female;4;0;1;349256;13;Desconocido;C;Miss;Karun;False;Desconocido;2;False;Niño;13;Cherburgo;Sobrevivió
+693;1;3;Lam Mr. Ali;Male;30;0;0;1601;56;Desconocido;S;Mr;Lam;True;Desconocido;1;True;Adulto joven;9;Southampton;Sobrevivió
+694;0;3;Saad Mr. Khalil;Male;25;0;0;2672;7;Desconocido;C;Mr;Saad;False;Desconocido;1;True;Adulto joven;7;Cherburgo;Falleció
+695;0;1;Weir Col. John;Male;60;0;0;113800;27;Desconocido;S;Col;Weir;False;Desconocido;1;True;Mayor;27;Southampton;Falleció
+696;0;2;Chapman Mr. Charles Henry;Male;52;0;0;248731;14;Desconocido;S;Mr;Chapman;False;Desconocido;1;True;Adulto;14;Southampton;Falleció
+697;0;3;Kelly Mr. James;Male;44;0;0;363592;8;Desconocido;S;Mr;Kelly;False;Desconocido;1;True;Adulto;8;Southampton;Falleció
+698;1;3;Mullens Miss. Katherine Katie;Female;21;0;0;35852;8;Desconocido;Q;Miss;Mullens;True;Desconocido;1;True;Adulto joven;8;Queenstown;Sobrevivió
+699;0;1;Thayer Mr. John Borland;Male;49;1;1;17421;111;C68;C;Mr;Thayer;False;C;3;False;Adulto;28;Cherburgo;Falleció
+700;0;3;Humblen Mr. Adolf Mathias Nicolai Olsen;Male;42;0;0;348121;8;F G63;S;Mr;Humblen;False;F;1;True;Adulto;8;Southampton;Falleció
+701;1;1;Astor Mrs. John Jacob (Madeleine Talmadge Force);Female;18;1;0;PC 17757;228;C62 C64;C;Mrs;Astor;False;C;2;False;Adulto joven;57;Cherburgo;Sobrevivió
+702;1;1;Silverthorne Mr. Spencer Victor;Male;35;0;0;PC 17475;263;E24;S;Mr;Silverthorne;False;E;1;True;Adulto;263;Southampton;Sobrevivió
+703;0;3;Barbara Miss. Saiide;Female;18;0;1;2691;14;Desconocido;C;Miss;Barbara;False;Desconocido;2;False;Adulto joven;7;Cherburgo;Falleció
+704;0;3;Gallagher Mr. Martin;Male;25;0;0;36864;8;Desconocido;Q;Mr;Gallagher;False;Desconocido;1;True;Adulto joven;8;Queenstown;Falleció
+705;0;3;Hansen Mr. Henrik Juul;Male;26;1;0;350025;8;Desconocido;S;Mr;Hansen;False;Desconocido;2;False;Adulto joven;8;Southampton;Falleció
+706;0;2;Morley Mr. Henry Samuel (Mr Henry Marshall);Male;39;0;0;250655;26;Desconocido;S;Mr;Morley;False;Desconocido;1;True;Adulto;13;Southampton;Falleció
+707;1;2;Kelly Mrs. Florence Fannie;Female;45;0;0;223596;14;Desconocido;S;Mrs;Kelly;False;Desconocido;1;True;Adulto;14;Southampton;Sobrevivió
+708;1;1;Calderhead Mr. Edward Pennington;Male;42;0;0;PC 17476;263;E24;S;Mr;Calderhead;False;E;1;True;Adulto;263;Southampton;Sobrevivió
+709;1;1;Cleaver Miss. Alice;Female;22;0;0;113781;152;Desconocido;S;Miss;Cleaver;False;Desconocido;1;True;Adulto joven;38;Southampton;Sobrevivió
+710;1;3;Moubarok Master. Halim Gonios (William George);Male;4;1;1;621;15;Desconocido;C;Master;Moubarok;True;Desconocido;3;False;Niño;15;Cherburgo;Sobrevivió
+711;1;1;Mayne Mlle. Berthe Antonine (Mrs de Villiers);Female;24;0;0;PC 17482;495;C90;C;Miss;Mayne;False;C;1;True;Adulto joven;495;Cherburgo;Sobrevivió
+712;0;1;Klaber Mr. Herman;Male;30;0;0;113028;27;C124;S;Mr;Klaber;True;C;1;True;Adulto joven;27;Southampton;Falleció
+713;1;1;Taylor Mr. Elmer Zebley;Male;48;1;0;19996;52;C126;S;Mr;Taylor;False;C;2;False;Adulto;26;Southampton;Sobrevivió
+714;0;3;Larsson Mr. August Viktor;Male;29;0;0;7545;9;Desconocido;S;Mr;Larsson;False;Desconocido;1;True;Adulto joven;9;Southampton;Falleció
+715;0;2;Greenberg Mr. Samuel;Male;52;0;0;250647;13;Desconocido;S;Mr;Greenberg;False;Desconocido;1;True;Adulto;6;Southampton;Falleció
+716;0;3;Soholt Mr. Peter Andreas Lauritz Andersen;Male;19;0;0;348124;8;F G73;S;Mr;Soholt;False;F;1;True;Adulto joven;8;Southampton;Falleció
+717;1;1;Endres Miss. Caroline Louise;Female;38;0;0;PC 17757;228;C45;C;Miss;Endres;False;C;1;True;Adulto;57;Cherburgo;Sobrevivió
+718;1;2;Troutt Miss. Edwina Celia Winnie;Female;27;0;0;34218;10;E101;S;Miss;Troutt;False;E;1;True;Adulto joven;10;Southampton;Sobrevivió
+719;0;3;McEvoy Mr. Michael;Male;30;0;0;36568;16;Desconocido;Q;Mr;McEvoy;True;Desconocido;1;True;Adulto joven;16;Queenstown;Falleció
+720;0;3;Johnson Mr. Malkolm Joackim;Male;33;0;0;347062;8;Desconocido;S;Mr;Johnson;False;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+721;1;2;Harper Miss. Annie Jessie Nina;Female;6;0;1;248727;33;Desconocido;S;Miss;Harper;False;Desconocido;2;False;Niño;11;Southampton;Sobrevivió
+722;0;3;Jensen Mr. Svend Lauritz;Male;17;1;0;350048;7;Desconocido;S;Mr;Jensen;False;Desconocido;2;False;Adolescente;7;Southampton;Falleció
+723;0;2;Gillespie Mr. William Henry;Male;34;0;0;12233;13;Desconocido;S;Mr;Gillespie;False;Desconocido;1;True;Adulto joven;13;Southampton;Falleció
+724;0;2;Hodges Mr. Henry Price;Male;50;0;0;250643;13;Desconocido;S;Mr;Hodges;False;Desconocido;1;True;Adulto;13;Southampton;Falleció
+725;1;1;Chambers Mr. Norman Campbell;Male;27;1;0;113806;53;E8;S;Mr;Chambers;False;E;2;False;Adulto joven;27;Southampton;Sobrevivió
+726;0;3;Oreskovic Mr. Luka;Male;20;0;0;315094;9;Desconocido;S;Mr;Oreskovic;False;Desconocido;1;True;Adulto joven;9;Southampton;Falleció
+727;1;2;Renouf Mrs. Peter Henry (Lillian Jefferys);Female;30;3;0;31027;21;Desconocido;S;Mrs;Renouf;False;Desconocido;4;False;Adulto joven;10;Southampton;Sobrevivió
+728;1;3;Mannion Miss. Margareth;Female;21;0;0;36866;8;Desconocido;Q;Miss;Mannion;True;Desconocido;1;True;Adulto joven;8;Queenstown;Sobrevivió
+729;0;2;Bryhl Mr. Kurt Arnold Gottfrid;Male;25;1;0;236853;26;Desconocido;S;Mr;Bryhl;False;Desconocido;2;False;Adulto joven;26;Southampton;Falleció
+730;0;3;Ilmakangas Miss. Pieta Sofia;Female;25;1;0;STON/O2. 3101271;8;Desconocido;S;Miss;Ilmakangas;False;Desconocido;2;False;Adulto joven;8;Southampton;Falleció
+731;1;1;Allen Miss. Elisabeth Walton;Female;29;0;0;24160;211;B5;S;Miss;Allen;False;B;1;True;Adulto joven;70;Southampton;Sobrevivió
+732;0;3;Hassan Mr. Houssein G N;Male;11;0;0;2699;19;Desconocido;C;Mr;Hassan;False;Desconocido;1;True;Niño;9;Cherburgo;Falleció
+733;0;2;Knight Mr. Robert J;Male;30;0;0;239855;0;Desconocido;S;Mr;Knight;True;Desconocido;1;True;Adulto joven;0;Southampton;Falleció
+734;0;2;Berriman Mr. William John;Male;23;0;0;28425;13;Desconocido;S;Mr;Berriman;False;Desconocido;1;True;Adulto joven;13;Southampton;Falleció
+735;0;2;Troupiansky Mr. Moses Aaron;Male;23;0;0;233639;13;Desconocido;S;Mr;Troupiansky;False;Desconocido;1;True;Adulto joven;13;Southampton;Falleció
+736;0;3;Williams Mr. Leslie;Male;28;0;0;54636;16;Desconocido;S;Mr;Williams;False;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+737;0;3;Ford Mrs. Edward (Margaret An nWatson);Female;48;1;3;W./CC. 6 608;34;Desconocido;S;Mrs;Ford;False;Desconocido;5;False;Adulto;34;Southampton;Falleció
+738;1;1;Lesurer Mr. Gustave J;Male;35;0;0;PC 17755;512;B101;C;Mr;Lesurer;False;B;1;True;Adulto;171;Cherburgo;Sobrevivió
+739;0;3;Ivanoff Mr. Kanio;Male;30;0;0;349201;8;Desconocido;S;Mr;Ivanoff;True;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+740;0;3;Nankoff Mr. Minko;Male;30;0;0;349218;8;Desconocido;S;Mr;Nankoff;True;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+741;1;1;Hawksford Mr. Walter James;Male;30;0;0;16988;30;D45;S;Mr;Hawksford;True;D;1;True;Adulto joven;30;Southampton;Sobrevivió
+742;0;1;Cavendish Mr. Tyrell William;Male;36;1;0;19877;79;C46;S;Mr;Cavendish;False;C;2;False;Adulto;39;Southampton;Falleció
+743;1;1;Ryerson Miss. Susan Parker Suzette;Female;21;2;2;PC 17608;262;B57 B59 B63 B66;C;Miss;Ryerson;False;B;5;False;Adulto joven;131;Cherburgo;Sobrevivió
+744;0;3;McNamee Mr. Nealll;Male;24;1;0;376566;17;Desconocido;S;Mr;McNamee;False;Desconocido;2;False;Adulto joven;17;Southampton;Falleció
+745;1;3;Stranden Mr. Juho;Male;31;0;0;STON/O2. 3101288;8;Desconocido;S;Mr;Stranden;False;Desconocido;1;True;Adulto joven;8;Southampton;Sobrevivió
+746;0;1;Crosby Capt. Edward Gifford;Male;70;1;1;WE/P 5735;71;B22;S;Capt;Crosby;False;B;3;False;Mayor;36;Southampton;Falleció
+747;0;3;Abbott Mr. Rossmore Edward;Male;16;1;1;C.A. 2673;20;Desconocido;S;Mr;Abbott;False;Desconocido;3;False;Adolescente;10;Southampton;Falleció
+748;1;2;Sinkkonen Miss. Anna;Female;31;0;0;206548;13;Desconocido;S;Miss;Sinkkonen;False;Desconocido;1;True;Adulto joven;13;Southampton;Sobrevivió
+749;0;1;Marvin Mr. Daniel Warner;Male;19;1;0;113773;53;D30;S;Mr;Marvin;False;D;2;False;Adulto joven;53;Southampton;Falleció
+750;0;3;Connaghton Mr. Michael;Male;31;0;0;335097;8;Desconocido;Q;Mr;Connaghton;False;Desconocido;1;True;Adulto joven;8;Queenstown;Falleció
+751;1;2;Wells Miss. Joan;Female;4;1;1;29103;23;Desconocido;S;Miss;Wells;False;Desconocido;3;False;Niño;23;Southampton;Sobrevivió
+752;1;3;Moor Master. Meier;Male;6;0;1;392096;12;E121;S;Master;Moor;False;E;2;False;Niño;6;Southampton;Sobrevivió
+753;0;3;Vande Velde Mr. Johannes Joseph;Male;33;0;0;345780;10;Desconocido;S;Mr;Vande Velde;False;Desconocido;1;True;Adulto joven;10;Southampton;Falleció
+754;0;3;Jonkoff Mr. Lalio;Male;23;0;0;349204;8;Desconocido;S;Mr;Jonkoff;False;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+755;1;2;Herman Mrs. Samuel (Jane Laver);Female;48;1;2;220845;65;Desconocido;S;Mrs;Herman;False;Desconocido;4;False;Adulto;32;Southampton;Sobrevivió
+756;1;2;Hamalainen Master. Viljo;Male;1;1;1;250649;14;Desconocido;S;Master;Hamalainen;False;Desconocido;3;False;Niño;7;Southampton;Sobrevivió
+757;0;3;Carlsson Mr. August Sigfrid;Male;28;0;0;350042;8;Desconocido;S;Mr;Carlsson;False;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+758;0;2;Bailey Mr. Percy Andrew;Male;18;0;0;29108;12;Desconocido;S;Mr;Bailey;False;Desconocido;1;True;Adulto joven;12;Southampton;Falleció
+759;0;3;Theobald Mr. Thomas Leonard;Male;34;0;0;363294;8;Desconocido;S;Mr;Theobald;False;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+760;1;1;Rothes the Countess. of (Lucy Noel Martha Dyer-Edwards);Female;33;0;0;110152;86;B77;S;Countess;Rothes the;False;B;1;True;Adulto joven;29;Southampton;Sobrevivió
+761;0;3;Garfirth Mr. John;Male;30;0;0;358585;14;Desconocido;S;Mr;Garfirth;True;Desconocido;1;True;Adulto joven;7;Southampton;Falleció
+762;0;3;Nirva Mr. Iisakki Antino Aijo;Male;41;0;0;SOTON/O2 3101272;7;Desconocido;S;Mr;Nirva;False;Desconocido;1;True;Adulto;7;Southampton;Falleció
+763;1;3;Barah Mr. Hanna Assi;Male;20;0;0;2663;7;Desconocido;C;Mr;Barah;False;Desconocido;1;True;Adulto joven;7;Cherburgo;Sobrevivió
+764;1;1;Carter Mrs. William Ernest (Lucile Polk);Female;36;1;2;113760;120;B96 B98;S;Mrs;Carter;False;B;4;False;Adulto;30;Southampton;Sobrevivió
+765;0;3;Eklund Mr. Hans Linus;Male;16;0;0;347074;8;Desconocido;S;Mr;Eklund;False;Desconocido;1;True;Adolescente;8;Southampton;Falleció
+766;1;1;Hogeboom Mrs. John C (Anna Andrews);Female;51;1;0;13502;78;D11;S;Mrs;Hogeboom;False;D;2;False;Adulto;26;Southampton;Sobrevivió
+767;0;1;Brewe Dr. Arthur Jackson;Male;46;0;0;112379;40;Desconocido;C;Dr;Brewe;True;Desconocido;1;True;Adulto;40;Cherburgo;Falleció
+768;0;3;Mangan Miss. Mary;Female;30;0;0;364850;8;Desconocido;Q;Miss;Mangan;False;Desconocido;1;True;Adulto joven;8;Queenstown;Falleció
+769;0;3;Moran Mr. Daniel J;Male;30;1;0;371110;24;Desconocido;Q;Mr;Moran;True;Desconocido;2;False;Adulto joven;8;Queenstown;Falleció
+770;0;3;Gronnestad Mr. Daniel Danielsen;Male;32;0;0;8471;8;Desconocido;S;Mr;Gronnestad;False;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+771;0;3;Lievens Mr. Rene Aime;Male;24;0;0;345781;10;Desconocido;S;Mr;Lievens;False;Desconocido;1;True;Adulto joven;10;Southampton;Falleció
+772;0;3;Jensen Mr. Niels Peder;Male;48;0;0;350047;8;Desconocido;S;Mr;Jensen;False;Desconocido;1;True;Adulto;8;Southampton;Falleció
+773;0;2;Mack Mrs. (Mary);Female;57;0;0;S.O./P.P. 3;10;E77;S;Mrs;Mack;False;E;1;True;Adulto;5;Southampton;Falleció
+774;0;3;Elias Mr. Dibo;Male;30;0;0;2674;7;Desconocido;C;Mr;Elias;True;Desconocido;1;True;Adulto joven;7;Cherburgo;Falleció
+775;1;2;Hocking Mrs. Elizabeth (Eliza Needs);Female;54;1;3;29105;23;Desconocido;S;Mrs;Hocking;False;Desconocido;5;False;Adulto;23;Southampton;Sobrevivió
+776;0;3;Myhrman Mr. Pehr Fabian Oliver Malkolm;Male;18;0;0;347078;8;Desconocido;S;Mr;Myhrman;False;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+777;0;3;Tobin Mr. Roger;Male;30;0;0;383121;8;F38;Q;Mr;Tobin;True;F;1;True;Adulto joven;8;Queenstown;Falleció
+778;1;3;Emanuel Miss. Virginia Ethel;Female;5;0;0;364516;12;Desconocido;S;Miss;Emanuel;False;Desconocido;1;True;Niño;6;Southampton;Sobrevivió
+779;0;3;Kilgannon Mr. Thomas J;Male;30;0;0;36865;8;Desconocido;Q;Mr;Kilgannon;True;Desconocido;1;True;Adulto joven;8;Queenstown;Falleció
+780;1;1;Robert Mrs. Edward Scott (Elisabeth Walton McMillan);Female;43;0;1;24160;211;B3;S;Mrs;Robert;False;B;2;False;Adulto;70;Southampton;Sobrevivió
+781;1;3;Ayoub Miss. Banoura;Female;13;0;0;2687;7;Desconocido;C;Miss;Ayoub;False;Desconocido;1;True;Adolescente;7;Cherburgo;Sobrevivió
+782;1;1;Dick Mrs. Albert Adrian (Vera Gillespie);Female;17;1;0;17474;57;B20;S;Mrs;Dick;False;B;2;False;Adolescente;28;Southampton;Sobrevivió
+783;0;1;Long Mr. Milton Clyde;Male;29;0;0;113501;30;D6;S;Mr;Long;False;D;1;True;Adulto joven;30;Southampton;Falleció
+784;0;3;Johnston Mr. Andrew G;Male;30;1;2;W./C. 6607;23;Desconocido;S;Mr;Johnston;True;Desconocido;4;False;Adulto joven;12;Southampton;Falleció
+785;0;3;Ali Mr. William;Male;25;0;0;SOTON/O.Q. 3101312;7;Desconocido;S;Mr;Ali;False;Desconocido;1;True;Adulto joven;7;Southampton;Falleció
+786;0;3;Harmer Mr. Abraham (David Lishin);Male;25;0;0;374887;7;Desconocido;S;Mr;Harmer;False;Desconocido;1;True;Adulto joven;7;Southampton;Falleció
+787;1;3;Sjoblom Miss. Anna Sofia;Female;18;0;0;3101265;7;Desconocido;S;Miss;Sjoblom;False;Desconocido;1;True;Adulto joven;7;Southampton;Sobrevivió
+788;0;3;Rice Master. George Hugh;Male;8;4;1;382652;29;Desconocido;Q;Master;Rice;False;Desconocido;6;False;Niño;7;Queenstown;Falleció
+789;1;3;Deann Master. Bertram Vere;Male;1;1;2;C.A. 2315;22;Desconocido;S;Master;Deann;False;Desconocido;4;False;Niño;11;Southampton;Sobrevivió
+790;0;1;Guggenheim Mr. Benjamin;Male;46;0;0;PC 17593;79;B82 B84;C;Mr;Guggenheim;False;B;1;True;Adulto;40;Cherburgo;Falleció
+791;0;3;Keane Mr. Andrew Andy;Male;30;0;0;12460;8;Desconocido;Q;Mr;Keane;True;Desconocido;1;True;Adulto joven;8;Queenstown;Falleció
+792;0;2;Gaskell Mr. Alfred;Male;16;0;0;239865;26;Desconocido;S;Mr;Gaskell;False;Desconocido;1;True;Adolescente;13;Southampton;Falleció
+793;0;3;Sage Miss. Stella Anna;Female;21;8;2;C.A. 2343;70;Desconocido;S;Miss;Sage;True;Desconocido;11;False;Adulto joven;10;Southampton;Falleció
+794;0;1;Hoyt Mr. William Fisher;Male;30;0;0;PC 17600;307;Desconocido;C;Mr;Hoyt;True;Desconocido;1;True;Adulto joven;307;Cherburgo;Falleció
+795;0;3;Dantcheff Mr. Ristiu;Male;25;0;0;349203;8;Desconocido;S;Mr;Dantcheff;False;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+796;0;2;Otter Mr. Richard;Male;39;0;0;28213;13;Desconocido;S;Mr;Otter;False;Desconocido;1;True;Adulto;13;Southampton;Falleció
+797;1;1;Leader Dr. Alice (Farnham);Female;49;0;0;17465;259;D17;S;Dr;Leader;False;D;1;True;Adulto;259;Southampton;Sobrevivió
+798;1;3;Osman Mrs. Mara;Female;31;0;0;349244;9;Desconocido;S;Mrs;Osman;False;Desconocido;1;True;Adulto joven;9;Southampton;Sobrevivió
+799;0;3;Ibrahim Shawah Mr. Yousseff;Male;30;0;0;2685;7;Desconocido;C;Mr;Ibrahim Shawah;False;Desconocido;1;True;Adulto joven;7;Cherburgo;Falleció
+800;0;3;Van Impe Mrs. Jean Baptiste (Rosalie Paula Govaert);Female;30;1;1;345773;24;Desconocido;S;Mrs;Van Impe;False;Desconocido;3;False;Adulto joven;8;Southampton;Falleció
+801;0;2;Ponesell Mr. Martin;Male;34;0;0;250647;13;Desconocido;S;Mr;Ponesell;False;Desconocido;1;True;Adulto joven;6;Southampton;Falleció
+802;1;2;Collyer Mrs. Harvey (Charlotte Annie Tate);Female;31;1;1;C.A. 31921;26;Desconocido;S;Mrs;Collyer;False;Desconocido;3;False;Adulto joven;9;Southampton;Sobrevivió
+803;1;1;Carter Master. William Thornton II;Male;11;1;2;113760;120;B96 B98;S;Master;Carter;False;B;4;False;Niño;30;Southampton;Sobrevivió
+804;1;3;Thomas Master. Assad Alexander;Male;1;0;1;2625;9;Desconocido;C;Master;Thomas;False;Desconocido;2;False;Niño;9;Cherburgo;Sobrevivió
+805;1;3;Hedman Mr. Oskar Arvid;Male;27;0;0;347089;70;Desconocido;S;Mr;Hedman;False;Desconocido;1;True;Adulto joven;70;Southampton;Sobrevivió
+806;0;3;Johansson Mr. Karl Johan;Male;31;0;0;347063;8;Desconocido;S;Mr;Johansson;False;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+807;0;1;Andrews Mr. Thomas Jr;Male;39;0;0;112050;0;A36;S;Mr;Andrews;False;A;1;True;Adulto;0;Southampton;Falleció
+808;0;3;Pettersson Miss. Ellen Natalia;Female;18;0;0;347087;8;Desconocido;S;Miss;Pettersson;False;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+809;0;2;Meyer Mr. August;Male;39;0;0;248723;13;Desconocido;S;Mr;Meyer;False;Desconocido;1;True;Adulto;13;Southampton;Falleció
+810;1;1;Chambers Mrs. Norman Campbell (Bertha Griggs);Female;33;1;0;113806;53;E8;S;Mrs;Chambers;False;E;2;False;Adulto joven;27;Southampton;Sobrevivió
+811;0;3;Alexander Mr. William;Male;26;0;0;3474;8;Desconocido;S;Mr;Alexander;False;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+812;0;3;Lester Mr. James;Male;39;0;0;A/4 48871;24;Desconocido;S;Mr;Lester;False;Desconocido;1;True;Adulto;12;Southampton;Falleció
+813;0;2;Slemen Mr. Richard James;Male;35;0;0;28206;10;Desconocido;S;Mr;Slemen;False;Desconocido;1;True;Adulto;10;Southampton;Falleció
+814;0;3;Andersson Miss. Ebba Iris Alfrida;Female;6;4;2;347082;31;Desconocido;S;Miss;Andersson;False;Desconocido;7;False;Niño;4;Southampton;Falleció
+815;0;3;Tomlin Mr. Ernest Portage;Male;30;0;0;364499;8;Desconocido;S;Mr;Tomlin;False;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+816;0;1;Fry Mr. Richard;Male;30;0;0;112058;0;B102;S;Mr;Fry;True;B;1;True;Adulto joven;0;Southampton;Falleció
+817;0;3;Heininen Miss. Wendla Maria;Female;23;0;0;STON/O2. 3101290;8;Desconocido;S;Miss;Heininen;False;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+818;0;2;Mallet Mr. Albert;Male;31;1;1;SC/PARIS 2079;37;Desconocido;C;Mr;Mallet;False;Desconocido;3;False;Adulto joven;19;Cherburgo;Falleció
+819;0;3;Holm Mr. John Fredrik Alexander;Male;43;0;0;C 7075;6;Desconocido;S;Mr;Holm;False;Desconocido;1;True;Adulto;6;Southampton;Falleció
+820;0;3;Skoog Master. Karl Thorsten;Male;10;3;2;347088;28;Desconocido;S;Master;Skoog;False;Desconocido;6;False;Niño;5;Southampton;Falleció
+821;1;1;Hays Mrs. Charles Melville (Clara Jennings Gregg);Female;52;1;1;12749;94;B69;S;Mrs;Hays;False;B;3;False;Adulto;47;Southampton;Sobrevivió
+822;1;3;Luic Mr. Nikola;Male;27;0;0;315098;9;Desconocido;S;Mr;Luic;False;Desconocido;1;True;Adulto joven;9;Southampton;Sobrevivió
+823;0;1;Reuchlin Jonkheer. John George;Male;38;0;0;19972;0;Desconocido;S;Jonkheer;Reuchlin;False;Desconocido;1;True;Adulto;0;Southampton;Falleció
+824;1;3;Moor Mrs. (Beila);Female;27;0;1;392096;12;E121;S;Mrs;Moor;False;E;2;False;Adulto joven;6;Southampton;Sobrevivió
+825;0;3;Panula Master. Urho Abraham;Male;2;4;1;3101295;40;Desconocido;S;Master;Panula;False;Desconocido;6;False;Niño;7;Southampton;Falleció
+826;0;3;Flynn Mr. John;Male;30;0;0;368323;7;Desconocido;Q;Mr;Flynn;True;Desconocido;1;True;Adulto joven;7;Queenstown;Falleció
+827;0;3;Lam Mr. Len;Male;30;0;0;1601;56;Desconocido;S;Mr;Lam;True;Desconocido;1;True;Adulto joven;9;Southampton;Falleció
+828;1;2;Mallet Master. Andre;Male;1;0;2;SC/PARIS 2079;37;Desconocido;C;Master;Mallet;False;Desconocido;3;False;Niño;19;Cherburgo;Sobrevivió
+829;1;3;McCormack Mr. Thomas Joseph;Male;30;0;0;367228;8;Desconocido;Q;Mr;McCormack;True;Desconocido;1;True;Adulto joven;8;Queenstown;Sobrevivió
+830;1;1;Stone Mrs. George Nelson (Martha Evelyn);Female;62;0;0;113572;80;B28;S;Mrs;Stone;False;B;1;True;Mayor;40;Southampton;Sobrevivió
+831;1;3;Yasbeck Mrs. Antoni (Selini Alexander);Female;15;1;0;2659;14;Desconocido;C;Mrs;Yasbeck;False;Desconocido;2;False;Adolescente;7;Cherburgo;Sobrevivió
+832;1;2;Richards Master. George Sibley;Male;1;1;1;29106;19;Desconocido;S;Master;Richards;False;Desconocido;3;False;Niño;6;Southampton;Sobrevivió
+833;0;3;Saad Mr. Amin;Male;30;0;0;2671;7;Desconocido;C;Mr;Saad;True;Desconocido;1;True;Adulto joven;7;Cherburgo;Falleció
+834;0;3;Augustsson Mr. Albert;Male;23;0;0;347468;8;Desconocido;S;Mr;Augustsson;False;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+835;0;3;Allum Mr. Owen George;Male;18;0;0;2223;8;Desconocido;S;Mr;Allum;False;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+836;1;1;Compton Miss. Sara Rebecca;Female;39;1;1;PC 17756;83;E49;C;Miss;Compton;False;E;3;False;Adulto;83;Cherburgo;Sobrevivió
+837;0;3;Pasic Mr. Jakob;Male;21;0;0;315097;9;Desconocido;S;Mr;Pasic;False;Desconocido;1;True;Adulto joven;9;Southampton;Falleció
+838;0;3;Sirota Mr. Maurice;Male;30;0;0;392092;8;Desconocido;S;Mr;Sirota;True;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+839;1;3;Chip Mr. Chang;Male;32;0;0;1601;56;Desconocido;S;Mr;Chip;False;Desconocido;1;True;Adulto joven;9;Southampton;Sobrevivió
+840;1;1;Marechal Mr. Pierre;Male;30;0;0;11774;30;C47;C;Mr;Marechal;True;C;1;True;Adulto joven;30;Cherburgo;Sobrevivió
+841;0;3;Alhomaki Mr. Ilmari Rduolf;Male;20;0;0;SOTON/O2 3101287;8;Desconocido;S;Mr;Alhomaki;False;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+842;0;2;Mudd Mr. Thomas Charles;Male;16;0;0;S.O./P.P. 3;10;Desconocido;S;Mr;Mudd;False;Desconocido;1;True;Adolescente;5;Southampton;Falleció
+843;1;1;Serepeca Miss. Augusta;Female;30;0;0;113798;31;Desconocido;C;Miss;Serepeca;False;Desconocido;1;True;Adulto joven;16;Cherburgo;Sobrevivió
+844;0;3;Lemberopolous Mr. Peter L;Male;34;0;0;2683;64;Desconocido;C;Mr;Lemberopolous;False;Desconocido;1;True;Adulto joven;64;Cherburgo;Falleció
+845;0;3;Culumovic Mr. Jeso;Male;17;0;0;315090;9;Desconocido;S;Mr;Culumovic;False;Desconocido;1;True;Adolescente;9;Southampton;Falleció
+846;0;3;Abbing Mr. Anthony;Male;42;0;0;C.A. 5547;8;Desconocido;S;Mr;Abbing;False;Desconocido;1;True;Adulto;8;Southampton;Falleció
+847;0;3;Sage Mr. Douglas Bullen;Male;30;8;2;C.A. 2343;70;Desconocido;S;Mr;Sage;True;Desconocido;11;False;Adulto joven;10;Southampton;Falleció
+848;0;3;Markoff Mr. Marin;Male;35;0;0;349213;8;Desconocido;C;Mr;Markoff;False;Desconocido;1;True;Adulto;8;Cherburgo;Falleció
+849;0;2;Harper Rev. John;Male;28;0;1;248727;33;Desconocido;S;Rev;Harper;False;Desconocido;2;False;Adulto joven;11;Southampton;Falleció
+850;1;1;Goldenberg Mrs. Samuel L (Edwiga Grabowska);Female;35;1;0;17453;89;C92;C;Mrs;Goldenberg;True;C;2;False;Adulto;45;Cherburgo;Sobrevivió
+851;0;3;Andersson Master. Sigvard Harald Elias;Male;4;4;2;347082;31;Desconocido;S;Master;Andersson;False;Desconocido;7;False;Niño;4;Southampton;Falleció
+852;0;3;Svensson Mr. Johan;Male;74;0;0;347060;8;Desconocido;S;Mr;Svensson;False;Desconocido;1;True;Mayor;8;Southampton;Falleció
+853;0;3;Boulos Miss. Nourelain;Female;9;1;1;2678;15;Desconocido;C;Miss;Boulos;False;Desconocido;3;False;Niño;8;Cherburgo;Falleció
+854;1;1;Liens Miss. Mary Conoover;Female;16;0;1;PC 17592;39;D82;S;Miss;Liens;False;D;2;False;Adolescente;39;Southampton;Sobrevivió
+855;0;2;Carter Mrs. Ernest Courtenay (Lilian Hughes);Female;44;1;0;244252;26;Desconocido;S;Mrs;Carter;False;Desconocido;2;False;Adulto;13;Southampton;Falleció
+856;1;3;Aks Mrs. Sam (Leah Rosen);Female;18;0;1;392091;9;Desconocido;S;Mrs;Aks;False;Desconocido;2;False;Adulto joven;9;Southampton;Sobrevivió
+857;1;1;Wick Mrs. George Dennick (Mary Hitchcock);Female;45;1;1;36928;165;Desconocido;S;Mrs;Wick;False;Desconocido;3;False;Adulto;82;Southampton;Sobrevivió
+858;1;1;Daly Mr. Peter Denis;Male;51;0;0;113055;27;E17;S;Mr;Daly;False;E;1;True;Adulto;27;Southampton;Sobrevivió
+859;1;3;Baclini Mrs. Solomon (Latifa Qurban);Female;24;0;3;2666;19;Desconocido;C;Mrs;Baclini;False;Desconocido;4;False;Adulto joven;5;Cherburgo;Sobrevivió
+860;0;3;Razi Mr. Raihed;Male;30;0;0;2629;7;Desconocido;C;Mr;Razi;True;Desconocido;1;True;Adulto joven;7;Cherburgo;Falleció
+861;0;3;Hansen Mr. Claus Peter;Male;41;2;0;350026;14;Desconocido;S;Mr;Hansen;False;Desconocido;3;False;Adulto;14;Southampton;Falleció
+862;0;2;Giles Mr. Frederick Edward;Male;21;1;0;28134;12;Desconocido;S;Mr;Giles;False;Desconocido;2;False;Adulto joven;12;Southampton;Falleció
+863;1;1;Swift Mrs. Frederick Joel (Margaret Welles Barron);Female;48;0;0;17466;259;D17;S;Mrs;Swift;False;D;1;True;Adulto;259;Southampton;Sobrevivió
+864;0;3;Sage Miss. Dorothy Edith Dolly;Female;21;8;2;C.A. 2343;70;Desconocido;S;Miss;Sage;True;Desconocido;11;False;Adulto joven;10;Southampton;Falleció
+865;0;2;Gill Mr. John William;Male;24;0;0;233866;13;Desconocido;S;Mr;Gill;False;Desconocido;1;True;Adulto joven;13;Southampton;Falleció
+866;1;2;Bystrom Mrs. (Karolina);Female;42;0;0;236852;13;Desconocido;S;Mrs;Bystrom;False;Desconocido;1;True;Adulto;13;Southampton;Sobrevivió
+867;1;2;Duran y More Miss. Asuncion;Female;27;1;0;SC/PARIS 2149;14;Desconocido;C;Miss;Duran y More;False;Desconocido;2;False;Adulto joven;14;Cherburgo;Sobrevivió
+868;0;1;Roebling Mr. Washington Augustus II;Male;31;0;0;PC 17590;505;A24;S;Mr;Roebling;False;A;1;True;Adulto joven;505;Southampton;Falleció
+869;0;3;van Melkebeke Mr. Philemon;Male;30;0;0;345777;10;Desconocido;S;Mr;van Melkebeke;True;Desconocido;1;True;Adulto joven;10;Southampton;Falleció
+870;1;3;Johnson Master. Harold Theodor;Male;4;1;1;347742;11;Desconocido;S;Master;Johnson;False;Desconocido;3;False;Niño;4;Southampton;Sobrevivió
+871;0;3;Balkic Mr. Cerin;Male;26;0;0;349248;8;Desconocido;S;Mr;Balkic;False;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+872;1;1;Beckwith Mrs. Richard Leonard (Sallie Monypeny);Female;47;1;1;11751;53;D35;S;Mrs;Beckwith;False;D;3;False;Adulto;26;Southampton;Sobrevivió
+873;0;1;Carlsson Mr. Frans Olof;Male;33;0;0;695;5;B51 B53 B55;S;Mr;Carlsson;False;B;1;True;Adulto joven;5;Southampton;Falleció
+874;0;3;Vander Cruyssen Mr. Victor;Male;47;0;0;345765;9;Desconocido;S;Mr;Vander Cruyssen;False;Desconocido;1;True;Adulto;9;Southampton;Falleció
+875;1;2;Abelson Mrs. Samuel (Hannah Wizosky);Female;28;1;0;P/PP 3381;24;Desconocido;C;Mrs;Abelson;False;Desconocido;2;False;Adulto joven;12;Cherburgo;Sobrevivió
+876;1;3;Najib Miss. Adele Kiamie Jane;Female;15;0;0;2667;7;Desconocido;C;Miss;Najib;False;Desconocido;1;True;Adolescente;7;Cherburgo;Sobrevivió
+877;0;3;Gustafsson Mr. Alfred Ossian;Male;18;0;0;7534;10;Desconocido;S;Mr;Gustafsson;False;Desconocido;1;True;Adulto joven;5;Southampton;Falleció
+878;0;3;Petroff Mr. Nedelio;Male;19;0;0;349212;8;Desconocido;S;Mr;Petroff;False;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+879;0;3;Laleff Mr. Kristo;Male;30;0;0;349217;8;Desconocido;S;Mr;Laleff;True;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+880;1;1;Potter Mrs. Thomas Jr (Lily Alexenia Wilson);Female;56;0;1;11767;83;C50;C;Mrs;Potter;False;C;2;False;Adulto;42;Cherburgo;Sobrevivió
+881;1;2;Shelley Mrs. William (Imanita Parrish Hall);Female;25;0;1;230433;26;Desconocido;S;Mrs;Shelley;False;Desconocido;2;False;Adulto joven;13;Southampton;Sobrevivió
+882;0;3;Markun Mr. Johann;Male;33;0;0;349257;8;Desconocido;S;Mr;Markun;False;Desconocido;1;True;Adulto joven;8;Southampton;Falleció
+883;0;3;Dahlberg Miss. Gerda Ulrika;Female;22;0;0;7552;11;Desconocido;S;Miss;Dahlberg;False;Desconocido;1;True;Adulto joven;11;Southampton;Falleció
+884;0;2;Banfield Mr. Frederick James;Male;28;0;0;C.A./SOTON 34068;10;Desconocido;S;Mr;Banfield;False;Desconocido;1;True;Adulto joven;10;Southampton;Falleció
+885;0;3;Sutehall Mr. Henry Jr;Male;25;0;0;SOTON/O.Q. 392076;7;Desconocido;S;Mr;Sutehall;False;Desconocido;1;True;Adulto joven;7;Southampton;Falleció
+886;0;3;Rice Mrs. William (Margaret Norton);Female;39;0;5;382652;29;Desconocido;Q;Mrs;Rice;False;Desconocido;6;False;Adulto;7;Queenstown;Falleció
+887;0;2;Montvila Rev. Juozas;Male;27;0;0;211536;13;Desconocido;S;Rev;Montvila;False;Desconocido;1;True;Adulto joven;13;Southampton;Falleció
+888;1;1;Graham Miss. Margaret Edith;Female;19;0;0;112053;30;B42;S;Miss;Graham;False;B;1;True;Adulto joven;30;Southampton;Sobrevivió
+889;0;3;Johnston Miss. Catherine Helen Carrie;Female;21;1;2;W./C. 6607;23;Desconocido;S;Miss;Johnston;True;Desconocido;4;False;Adulto joven;12;Southampton;Falleció
+890;1;1;Behr Mr. Karl Howell;Male;26;0;0;111369;30;C148;C;Mr;Behr;False;C;1;True;Adulto joven;30;Cherburgo;Sobrevivió
+891;0;3;Dooley Mr. Patrick;Male;32;0;0;370376;8;Desconocido;Q;Mr;Dooley;False;Desconocido;1;True;Adulto joven;8;Queenstown;Falleció
